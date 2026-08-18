@@ -2019,6 +2019,7 @@ if (reversed == null) { reversed = false; }
 		    );
 		
 		});
+
 		
 		
 		terminal.btnVideo05.cursor = "pointer";
