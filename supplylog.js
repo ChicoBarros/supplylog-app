@@ -4,7 +4,7 @@ var p; // shortcut to reference prototypes
 var lib={};var ss={};var img={};
 lib.ssMetadata = [
 		{name:"supplylog_atlas_1", frames: [[844,328,20,81],[854,161,20,81],[0,471,299,96],[294,314,277,154],[302,0,298,157],[294,159,289,153],[573,328,269,151],[0,316,273,153],[585,161,267,165],[0,0,300,156],[602,0,280,159],[0,158,292,156]]},
-		{name:"supplylog_atlas_2", frames: [[0,242,1045,269],[0,784,845,269],[0,513,881,269],[847,984,808,269],[0,0,1416,240],[359,1675,769,100],[879,1470,769,100],[879,1572,769,100],[1418,0,544,208],[442,1465,435,208],[500,1255,450,208],[0,1265,440,208],[0,1055,498,208],[1657,1053,323,174],[1130,1674,301,169],[633,1777,294,165],[348,1777,283,174],[1522,621,472,250],[1709,1229,288,184],[1650,1461,310,172],[1433,1812,309,163],[929,1845,301,160],[1695,401,325,174],[1744,1812,304,163],[952,1255,428,213],[1657,873,316,178],[0,1727,346,209],[1382,1255,325,204],[500,1055,343,183],[0,1475,357,250],[1650,1635,300,175],[1695,210,348,189],[1047,242,646,377],[883,621,637,361]]},
+		{name:"supplylog_atlas_2", frames: [[0,242,1045,269],[0,784,845,269],[0,513,881,269],[847,984,808,269],[0,0,1416,240],[359,1675,769,100],[879,1470,769,100],[879,1572,769,100],[1418,0,544,208],[442,1465,435,208],[500,1255,450,208],[0,1265,440,208],[0,1055,498,208],[1657,1053,323,174],[1130,1674,301,169],[633,1777,294,165],[348,1777,283,174],[1522,621,472,250],[1709,1229,288,184],[1650,1461,310,172],[1433,1812,309,163],[929,1845,301,160],[1695,401,325,174],[1744,1812,304,163],[952,1255,428,213],[1657,873,316,178],[0,1727,346,209],[1382,1255,325,204],[500,1055,343,183],[0,1475,357,250],[1650,1635,300,175],[1695,210,348,189],[-551658860,3,-1040187284,-788529043],[1047,242,646,377],[883,621,637,361]]},
 		{name:"supplylog_atlas_3", frames: [[0,1015,1588,240],[0,531,1157,482],[0,1257,1416,240],[0,1499,1416,240],[0,1741,1416,240],[0,0,1157,529]]},
 		{name:"supplylog_atlas_4", frames: [[0,0,1446,582],[0,1167,1446,438],[0,584,1320,581],[0,1607,1446,438]]},
 		{name:"supplylog_atlas_5", frames: [[0,0,1920,1080]]},
@@ -503,14 +503,14 @@ p.nominalBounds = new cjs.Rectangle(0,0,3840,2160);
 
 (lib.Screenshot20260818at85521AM = function() {
 	this.initialize(ss["supplylog_atlas_2"]);
-	this.gotoAndStop(32);
+	this.gotoAndStop(33);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.Screenshot20260818at85724AM = function() {
 	this.initialize(ss["supplylog_atlas_2"]);
-	this.gotoAndStop(33);
+	this.gotoAndStop(34);
 }).prototype = p = new cjs.Sprite();
 // helper functions:
 
@@ -4021,21 +4021,21 @@ lib.properties = {
 	color: "#CCCCCC",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/CachedBmp_57.png?1787079271512", id:"CachedBmp_57"},
-		{src:"images/supplylog_atlas_1.png?1787079271487", id:"supplylog_atlas_1"},
-		{src:"images/supplylog_atlas_2.png?1787079271488", id:"supplylog_atlas_2"},
-		{src:"images/supplylog_atlas_3.png?1787079271488", id:"supplylog_atlas_3"},
-		{src:"images/supplylog_atlas_4.png?1787079271488", id:"supplylog_atlas_4"},
-		{src:"images/supplylog_atlas_5.png?1787079271488", id:"supplylog_atlas_5"},
-		{src:"images/supplylog_atlas_6.png?1787079271488", id:"supplylog_atlas_6"},
-		{src:"images/supplylog_atlas_7.png?1787079271488", id:"supplylog_atlas_7"},
-		{src:"images/supplylog_atlas_8.png?1787079271488", id:"supplylog_atlas_8"},
-		{src:"images/supplylog_atlas_9.png?1787079271488", id:"supplylog_atlas_9"},
-		{src:"images/supplylog_atlas_10.png?1787079271488", id:"supplylog_atlas_10"},
-		{src:"images/supplylog_atlas_11.png?1787079271488", id:"supplylog_atlas_11"},
-		{src:"images/supplylog_atlas_12.png?1787079271488", id:"supplylog_atlas_12"},
-		{src:"images/supplylog_atlas_13.png?1787079271488", id:"supplylog_atlas_13"},
-		{src:"images/supplylog_atlas_14.png?1787079271488", id:"supplylog_atlas_14"}
+		{src:"images/CachedBmp_57.png", id:"CachedBmp_57"},
+		{src:"images/supplylog_atlas_1.png", id:"supplylog_atlas_1"},
+		{src:"images/supplylog_atlas_2.png", id:"supplylog_atlas_2"},
+		{src:"images/supplylog_atlas_3.png", id:"supplylog_atlas_3"},
+		{src:"images/supplylog_atlas_4.png", id:"supplylog_atlas_4"},
+		{src:"images/supplylog_atlas_5.png", id:"supplylog_atlas_5"},
+		{src:"images/supplylog_atlas_6.png", id:"supplylog_atlas_6"},
+		{src:"images/supplylog_atlas_7.png", id:"supplylog_atlas_7"},
+		{src:"images/supplylog_atlas_8.png", id:"supplylog_atlas_8"},
+		{src:"images/supplylog_atlas_9.png", id:"supplylog_atlas_9"},
+		{src:"images/supplylog_atlas_10.png", id:"supplylog_atlas_10"},
+		{src:"images/supplylog_atlas_11.png", id:"supplylog_atlas_11"},
+		{src:"images/supplylog_atlas_12.png", id:"supplylog_atlas_12"},
+		{src:"images/supplylog_atlas_13.png", id:"supplylog_atlas_13"},
+		{src:"images/supplylog_atlas_14.png", id:"supplylog_atlas_14"}
 	],
 	preloads: []
 };
