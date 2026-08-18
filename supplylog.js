@@ -1986,7 +1986,7 @@ if (reversed == null) { reversed = false; }
 		terminal.btnVideo01.on("click", function () {
 		
 		    exportRoot.abrirVideoFullscreen(
-		        "videos/Terminal/video01.mp4"
+		        "videos/terminal/video01.mp4"
 		    );
 		
 		});
@@ -1995,7 +1995,7 @@ if (reversed == null) { reversed = false; }
 		terminal.btnVideo02.on("click", function () {
 		
 		    exportRoot.abrirVideoFullscreen(
-		        "videos/Terminal/video02.mp4"
+		        "videos/terminal/video02.mp4"
 		    );
 		
 		});
@@ -2005,7 +2005,7 @@ if (reversed == null) { reversed = false; }
 		terminal.btnVideo03.on("click", function () {
 		
 		    exportRoot.abrirVideoFullscreen(
-		        "videos/Terminal/video03.mp4"
+		        "videos/terminal/video03.mp4"
 		    );
 		
 		});
@@ -2015,7 +2015,7 @@ if (reversed == null) { reversed = false; }
 		terminal.btnVideo04.on("click", function () {
 		
 		    exportRoot.abrirVideoFullscreen(
-		        "videos/Terminal/video04.mp4"
+		        "videos/terminal/video04.mp4"
 		    );
 		
 		});
@@ -2026,7 +2026,7 @@ if (reversed == null) { reversed = false; }
 		terminal.btnVideo05.on("click", function () {
 		
 		    exportRoot.abrirVideoFullscreen(
-		        "videos/Terminal/video05.mp4"
+		        "videos/terminal/video05.mp4"
 		    );
 		
 		});
@@ -2036,7 +2036,7 @@ if (reversed == null) { reversed = false; }
 		terminal.btnVideo06.on("click", function () {
 		
 		    exportRoot.abrirVideoFullscreen(
-		        "videos/Terminal/video06.mp4"
+		        "videos/terminal/video06.mp4"
 		    );
 		
 		});
