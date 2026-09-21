@@ -3427,29 +3427,31 @@ if (reversed == null) { reversed = false; }
 		       POSICIONAMENTO DO VÍDEO
 		       ----------------------------------------------------- */
 		
-		    bgVideo.style.position = "absolute";
+		    bgVideo.style.position = "fixed";
 		
 		    bgVideo.style.left = "0";
 		    bgVideo.style.top = "0";
 		
-		    bgVideo.style.width = "100%";
-		    bgVideo.style.height = "100%";
+		    bgVideo.style.width = "100vw";
+		    bgVideo.style.height = "100vh";
 		
-		    // ocupa toda a tela sem deformar
+		    // ocupa toda a tela sem deformar, em qualquer proporcao de device (celular, tablet, desktop)
 		    bgVideo.style.objectFit = "cover";
 		
-		    // atrás do Canvas
-		    bgVideo.style.zIndex = "0";
+		    // atras do Canvas
+		    bgVideo.style.zIndex = "-1";
 		
-		    // vídeo não recebe clique
+		    // video nao recebe clique
 		    bgVideo.style.pointerEvents = "none";
 		
 		
 		    /* -----------------------------------------------------
-		       COLOCA O VÍDEO ATRÁS DO CANVAS
+		       COLOCA O VIDEO NO BODY, FIXO ATRAS DO CANVAS
+		       (cobre a tela inteira mesmo quando o canvas fica
+		       letterboxed em proporcoes diferentes de 16:9)
 		       ----------------------------------------------------- */
 		
-		    container.insertBefore(bgVideo, canvasElement);
+		    document.body.insertBefore(bgVideo, container);
 		
 		
 		    /* -----------------------------------------------------

@@ -2,7 +2,7 @@
 <html>
 <head>
 <meta name="viewport"
-          content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+          content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
 
     <link rel="manifest" href="/manifest.webmanifest">
 
@@ -23,6 +23,15 @@
 <title>supplylog</title>
 
 <style>
+  html, body {
+	margin:0;
+	padding:0;
+	width:100%;
+	height:100%;
+	overflow:hidden;
+	background-color:#000000;
+	touch-action:manipulation;
+  }
   #animation_container {
 	position:absolute;
 	margin:auto;
@@ -47,8 +56,8 @@ function init() {
 	loader.loadManifest(lib.properties.manifest);
 }
 function handleFileLoad(evt, comp) {
-	var images=comp.getImages();	
-	if (evt && (evt.item.type == "image")) { images[evt.item.id] = evt.result; }	
+	var images=comp.getImages();
+	if (evt && (evt.item.type == "image")) { images[evt.item.id] = evt.result; }
 }
 function handleComplete(evt,comp) {
 	//This function is always called, irrespective of the content. You can use the variable "stage" after it is created in token create_stage.
@@ -61,15 +70,15 @@ function handleComplete(evt,comp) {
 	}
 	exportRoot = new lib.supplylog();
 	stage = new lib.Stage(canvas);
-	stage.enableMouseOver();	
+	stage.enableMouseOver();
 	//Registers the "tick" event listener.
 	fnStartAnimation = function() {
 		stage.addChild(exportRoot);
 		createjs.Ticker.framerate = lib.properties.fps;
 		createjs.Ticker.addEventListener("tick", stage);
-	}	    
+	}
 	//Code to support hidpi screens and responsive scaling.
-	AdobeAn.makeResponsive(true,'both',true,1,[canvas,anim_container,dom_overlay_container]);	
+	AdobeAn.makeResponsive(true,'both',true,1,[canvas,anim_container,dom_overlay_container]);
 	AdobeAn.compositionLoaded(lib.properties.id);
 	fnStartAnimation();
 }
