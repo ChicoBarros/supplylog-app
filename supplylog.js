@@ -3475,7 +3475,17 @@ if (reversed == null) { reversed = false; }
 		document.createElement("button");
 
 		btnSairApp.id = "btnSairApp";
-		btnSairApp.innerHTML = "&#9211;";
+		btnSairApp.innerHTML =
+		'<svg viewBox="0 0 24 24" ' +
+		'width="28" height="28" ' +
+		'fill="none" ' +
+		'stroke="#FFFFFF" ' +
+		'stroke-width="2" ' +
+		'stroke-linecap="round">' +
+		'<path d="M12 3v8" />' +
+		'<path d="M6.3 6.3a8 8 0 1 0 ' +
+		'11.4 0" />' +
+		'</svg>';
 
 		btnSairApp.setAttribute(
 		"aria-label",
@@ -3505,18 +3515,18 @@ if (reversed == null) { reversed = false; }
 		btnSairApp.style.color =
 		"#FFFFFF";
 
-		btnSairApp.style.fontFamily =
-		"Arial, sans-serif";
-		btnSairApp.style.fontSize =
-		"28px";
-		btnSairApp.style.lineHeight =
-		"58px";
-		btnSairApp.style.textAlign =
-		"center";
 		btnSairApp.style.padding =
 		"0";
 		btnSairApp.style.cursor =
 		"pointer";
+
+		// centraliza o svg no botao
+		btnSairApp.style.display =
+		"flex";
+		btnSairApp.style.alignItems =
+		"center";
+		btnSairApp.style.justifyContent =
+		"center";
 
 		// acima de qualquer overlay
 		btnSairApp.style.zIndex =
