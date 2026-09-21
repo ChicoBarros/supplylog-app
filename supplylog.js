@@ -3451,7 +3451,7 @@ if (reversed == null) { reversed = false; }
 		    bgVideo.style.objectFit = "cover";
 		
 		    // atrás do Canvas
-		    bgVideo.style.zIndex = "-1";
+		    bgVideo.style.zIndex = "0";
 		
 		    // vídeo não recebe clique
 		    bgVideo.style.pointerEvents = "none";
