@@ -3550,14 +3550,30 @@ if (reversed == null) { reversed = false; }
 
 		window.fully.exitApplication();
 
-		}
-		else {
+		return;
 
-		console.log(
-		"Fully Kiosk nao detectado."
+		}
+
+		// PWA instalado (Android): fecha o
+		// app se o navegador permitir
+		window.close();
+
+		// fallback: se o close acima nao
+		// funcionar (navegador bloqueia
+		// fechar janelas nao abertas por
+		// script), avisa o usuario
+		setTimeout(
+		function () {
+
+		alert(
+		"Para sair, use o botao " +
+		"de voltar ou recentes " +
+		"do dispositivo."
 		);
 
-		}
+		},
+		300
+		);
 
 		}
 		);
