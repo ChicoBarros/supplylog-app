@@ -3517,13 +3517,20 @@ if (reversed == null) { reversed = false; }
 		   ========================================================= */
 		
 		bgVideo.play()
-		
+
 		.then(function () {
-		
-		
+
+		    console.log("BG VIDEO rodando.");
+
+		})
+
+		.catch(function (error) {
+
+		    console.log("Autoplay bloqueado:", error);
+
 		});
-		
-		
+
+
 		/* =========================================================
 		   ESTADO INICIAL
 		   ========================================================= */
