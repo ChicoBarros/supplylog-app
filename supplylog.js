@@ -3,20 +3,20 @@
 var p; // shortcut to reference prototypes
 var lib={};var ss={};var img={};
 lib.ssMetadata = [
-		{name:"supplylog_atlas_1", frames: [[0,0,1920,1080]]},
-		{name:"supplylog_atlas_2", frames: [[0,0,1920,1080]]},
-		{name:"supplylog_atlas_3", frames: [[0,0,1920,1080]]},
-		{name:"supplylog_atlas_4", frames: [[0,0,1920,1080]]},
-		{name:"supplylog_atlas_5", frames: [[0,0,1920,1080]]},
-		{name:"supplylog_atlas_6", frames: [[0,0,1920,1080]]},
-		{name:"supplylog_atlas_7", frames: [[0,0,1920,1080]]},
+		{name:"supplylog_atlas_1", frames: [[844,328,20,81],[854,161,20,81],[0,471,299,96],[294,314,277,154],[302,0,298,157],[495757172,3,-1040187284,-788529043],[294,159,289,153],[573,328,269,151],[0,316,273,153],[585,161,267,165],[0,0,300,156],[602,0,280,159],[0,158,292,156]]},
+		{name:"supplylog_atlas_2", frames: [[0,242,1045,269],[0,784,845,269],[0,513,881,269],[847,984,808,269],[0,0,1416,240],[359,1675,769,100],[879,1470,769,100],[879,1572,769,100],[1418,0,544,208],[442,1465,435,208],[500,1255,450,208],[0,1265,440,208],[0,1055,498,208],[1657,1053,323,174],[1130,1674,301,169],[633,1777,294,165],[348,1777,283,174],[1522,621,472,250],[1709,1229,288,184],[1650,1461,310,172],[1433,1812,309,163],[929,1845,301,160],[1695,401,325,174],[1744,1812,304,163],[952,1255,428,213],[1657,873,316,178],[0,1727,346,209],[1382,1255,325,204],[500,1055,343,183],[0,1475,357,250],[1650,1635,300,175],[1695,210,348,189],[1047,242,646,377],[883,621,637,361]]},
+		{name:"supplylog_atlas_3", frames: [[495757172,3,-1040187284,-788529043],[0,0,1920,1080]]},
+		{name:"supplylog_atlas_4", frames: [[495757172,3,-1040187284,-788529043],[0,0,1920,1080]]},
+		{name:"supplylog_atlas_5", frames: [[495757172,3,-1040187284,-788529043],[0,0,1920,1080]]},
+		{name:"supplylog_atlas_6", frames: [[495757172,3,-1040187284,-788529043],[0,0,1920,1080]]},
+		{name:"supplylog_atlas_7", frames: [[495757172,3,-1040187284,-788529043],[0,0,1920,1080]]},
 		{name:"supplylog_atlas_8", frames: [[0,0,1920,1080]]},
 		{name:"supplylog_atlas_9", frames: [[0,0,1920,1080]]},
 		{name:"supplylog_atlas_10", frames: [[0,1235,1446,655],[0,0,1446,1233]]},
 		{name:"supplylog_atlas_11", frames: [[0,0,1446,582],[0,1167,1446,438],[0,584,1320,581],[0,1607,1446,438]]},
 		{name:"supplylog_atlas_12", frames: [[0,1015,1588,240],[0,531,1157,482],[0,1257,1416,240],[0,1499,1416,240],[0,1741,1416,240],[0,0,1157,529]]},
-		{name:"supplylog_atlas_13", frames: [[0,242,1045,269],[0,784,845,269],[0,513,881,269],[847,984,808,269],[-392638844,3,-1040187284,-788529043],[0,0,1416,240],[359,1675,769,100],[879,1470,769,100],[879,1572,769,100],[1418,0,544,208],[442,1465,435,208],[500,1255,450,208],[0,1265,440,208],[0,1055,498,208],[1657,1053,323,174],[1130,1674,301,169],[633,1777,294,165],[348,1777,283,174],[1522,621,472,250],[1709,1229,288,184],[1650,1461,310,172],[1433,1812,309,163],[929,1845,301,160],[1695,401,325,174],[1744,1812,304,163],[952,1255,428,213],[1657,873,316,178],[0,1727,346,209],[1382,1255,325,204],[500,1055,343,183],[0,1475,357,250],[1650,1635,300,175],[1695,210,348,189],[1047,242,646,377],[883,621,637,361]]},
-		{name:"supplylog_atlas_14", frames: [[844,328,20,81],[854,161,20,81],[0,471,299,96],[294,314,277,154],[302,0,298,157],[294,159,289,153],[573,328,269,151],[0,316,273,153],[585,161,267,165],[0,0,300,156],[602,0,280,159],[0,158,292,156]]}
+		{name:"supplylog_atlas_13", frames: [[0,0,1920,1080]]},
+		{name:"supplylog_atlas_14", frames: [[0,0,1920,1080]]}
 ];
 
 
@@ -41,7 +41,7 @@ lib.ssMetadata = [
 
 
 (lib.CachedBmp_29 = function() {
-	this.initialize(ss["supplylog_atlas_14"]);
+	this.initialize(ss["supplylog_atlas_1"]);
 	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
 
@@ -54,28 +54,28 @@ p.nominalBounds = new cjs.Rectangle(0,0,3840,2160);
 
 
 (lib.CachedBmp_27 = function() {
-	this.initialize(ss["supplylog_atlas_13"]);
+	this.initialize(ss["supplylog_atlas_2"]);
 	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_26 = function() {
-	this.initialize(ss["supplylog_atlas_13"]);
+	this.initialize(ss["supplylog_atlas_2"]);
 	this.gotoAndStop(1);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_25 = function() {
-	this.initialize(ss["supplylog_atlas_13"]);
+	this.initialize(ss["supplylog_atlas_2"]);
 	this.gotoAndStop(2);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_24 = function() {
-	this.initialize(ss["supplylog_atlas_13"]);
+	this.initialize(ss["supplylog_atlas_2"]);
 	this.gotoAndStop(3);
 }).prototype = p = new cjs.Sprite();
 
@@ -117,7 +117,7 @@ p.nominalBounds = new cjs.Rectangle(0,0,3840,2160);
 
 
 (lib.CachedBmp_18 = function() {
-	this.initialize(ss["supplylog_atlas_14"]);
+	this.initialize(ss["supplylog_atlas_1"]);
 	this.gotoAndStop(1);
 }).prototype = p = new cjs.Sprite();
 
@@ -138,8 +138,8 @@ p.nominalBounds = new cjs.Rectangle(0,0,3840,2160);
 
 
 (lib.CachedBmp_15 = function() {
-	this.initialize(ss["supplylog_atlas_13"]);
-	this.gotoAndStop(4);
+	this.initialize(ss["supplylog_atlas_12"]);
+	this.gotoAndStop(3);
 }).prototype = p = new cjs.Sprite();
 
 
@@ -173,344 +173,344 @@ p.nominalBounds = new cjs.Rectangle(0,0,3840,2160);
 
 
 (lib.CachedBmp_10 = function() {
-	this.initialize(ss["supplylog_atlas_13"]);
-	this.gotoAndStop(5);
+	this.initialize(ss["supplylog_atlas_2"]);
+	this.gotoAndStop(4);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_9 = function() {
-	this.initialize(ss["supplylog_atlas_13"]);
-	this.gotoAndStop(6);
+	this.initialize(ss["supplylog_atlas_2"]);
+	this.gotoAndStop(5);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_8 = function() {
-	this.initialize(ss["supplylog_atlas_14"]);
+	this.initialize(ss["supplylog_atlas_1"]);
 	this.gotoAndStop(2);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_7 = function() {
-	this.initialize(ss["supplylog_atlas_13"]);
-	this.gotoAndStop(7);
+	this.initialize(ss["supplylog_atlas_2"]);
+	this.gotoAndStop(6);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_6 = function() {
-	this.initialize(ss["supplylog_atlas_13"]);
-	this.gotoAndStop(8);
+	this.initialize(ss["supplylog_atlas_2"]);
+	this.gotoAndStop(7);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_5 = function() {
-	this.initialize(ss["supplylog_atlas_13"]);
-	this.gotoAndStop(9);
+	this.initialize(ss["supplylog_atlas_2"]);
+	this.gotoAndStop(8);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_4 = function() {
-	this.initialize(ss["supplylog_atlas_13"]);
-	this.gotoAndStop(10);
+	this.initialize(ss["supplylog_atlas_2"]);
+	this.gotoAndStop(9);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_3 = function() {
-	this.initialize(ss["supplylog_atlas_13"]);
-	this.gotoAndStop(11);
+	this.initialize(ss["supplylog_atlas_2"]);
+	this.gotoAndStop(10);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_2 = function() {
-	this.initialize(ss["supplylog_atlas_13"]);
-	this.gotoAndStop(12);
+	this.initialize(ss["supplylog_atlas_2"]);
+	this.gotoAndStop(11);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_1 = function() {
-	this.initialize(ss["supplylog_atlas_13"]);
-	this.gotoAndStop(13);
+	this.initialize(ss["supplylog_atlas_2"]);
+	this.gotoAndStop(12);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.Bitmap16 = function() {
-	this.initialize(ss["supplylog_atlas_14"]);
+	this.initialize(ss["supplylog_atlas_1"]);
 	this.gotoAndStop(3);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.Bitmap18 = function() {
-	this.initialize(ss["supplylog_atlas_14"]);
+	this.initialize(ss["supplylog_atlas_1"]);
 	this.gotoAndStop(4);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.Bitmap19 = function() {
-	this.initialize(ss["supplylog_atlas_13"]);
-	this.gotoAndStop(14);
+	this.initialize(ss["supplylog_atlas_2"]);
+	this.gotoAndStop(13);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.Bitmap21 = function() {
-	this.initialize(ss["supplylog_atlas_13"]);
-	this.gotoAndStop(15);
+	this.initialize(ss["supplylog_atlas_2"]);
+	this.gotoAndStop(14);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.Bitmap23 = function() {
-	this.initialize(ss["supplylog_atlas_13"]);
-	this.gotoAndStop(16);
+	this.initialize(ss["supplylog_atlas_2"]);
+	this.gotoAndStop(15);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.Bitmap25 = function() {
-	this.initialize(ss["supplylog_atlas_14"]);
-	this.gotoAndStop(5);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.Bitmap26 = function() {
-	this.initialize(ss["supplylog_atlas_14"]);
+	this.initialize(ss["supplylog_atlas_1"]);
 	this.gotoAndStop(6);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.Bitmap27 = function() {
-	this.initialize(ss["supplylog_atlas_13"]);
-	this.gotoAndStop(17);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.Bitmap30 = function() {
-	this.initialize(ss["supplylog_atlas_14"]);
+(lib.Bitmap26 = function() {
+	this.initialize(ss["supplylog_atlas_1"]);
 	this.gotoAndStop(7);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.Bitmap31 = function() {
-	this.initialize(ss["supplylog_atlas_14"]);
+(lib.Bitmap27 = function() {
+	this.initialize(ss["supplylog_atlas_2"]);
+	this.gotoAndStop(16);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.Bitmap30 = function() {
+	this.initialize(ss["supplylog_atlas_1"]);
 	this.gotoAndStop(8);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.Bitmap32 = function() {
-	this.initialize(ss["supplylog_atlas_14"]);
+(lib.Bitmap31 = function() {
+	this.initialize(ss["supplylog_atlas_1"]);
 	this.gotoAndStop(9);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.Bitmap33 = function() {
-	this.initialize(ss["supplylog_atlas_14"]);
+(lib.Bitmap32 = function() {
+	this.initialize(ss["supplylog_atlas_1"]);
 	this.gotoAndStop(10);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.Bitmap42 = function() {
-	this.initialize(ss["supplylog_atlas_14"]);
+(lib.Bitmap33 = function() {
+	this.initialize(ss["supplylog_atlas_1"]);
 	this.gotoAndStop(11);
 }).prototype = p = new cjs.Sprite();
 
 
 
+(lib.Bitmap42 = function() {
+	this.initialize(ss["supplylog_atlas_1"]);
+	this.gotoAndStop(12);
+}).prototype = p = new cjs.Sprite();
+
+
+
 (lib.Bitmap43 = function() {
-	this.initialize(ss["supplylog_atlas_13"]);
-	this.gotoAndStop(18);
+	this.initialize(ss["supplylog_atlas_2"]);
+	this.gotoAndStop(17);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.Bitmap44 = function() {
-	this.initialize(ss["supplylog_atlas_13"]);
-	this.gotoAndStop(19);
+	this.initialize(ss["supplylog_atlas_2"]);
+	this.gotoAndStop(18);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.Bitmap45 = function() {
-	this.initialize(ss["supplylog_atlas_13"]);
-	this.gotoAndStop(20);
+	this.initialize(ss["supplylog_atlas_2"]);
+	this.gotoAndStop(19);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.Bitmap46 = function() {
-	this.initialize(ss["supplylog_atlas_13"]);
-	this.gotoAndStop(21);
+	this.initialize(ss["supplylog_atlas_2"]);
+	this.gotoAndStop(20);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.Bitmap47 = function() {
-	this.initialize(ss["supplylog_atlas_13"]);
-	this.gotoAndStop(22);
+	this.initialize(ss["supplylog_atlas_2"]);
+	this.gotoAndStop(21);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.Bitmap50 = function() {
-	this.initialize(ss["supplylog_atlas_13"]);
-	this.gotoAndStop(23);
+	this.initialize(ss["supplylog_atlas_2"]);
+	this.gotoAndStop(22);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.Bitmap51 = function() {
-	this.initialize(ss["supplylog_atlas_13"]);
-	this.gotoAndStop(24);
+	this.initialize(ss["supplylog_atlas_2"]);
+	this.gotoAndStop(23);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.Bitmap52 = function() {
-	this.initialize(ss["supplylog_atlas_13"]);
-	this.gotoAndStop(25);
+	this.initialize(ss["supplylog_atlas_2"]);
+	this.gotoAndStop(24);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.Bitmap53 = function() {
-	this.initialize(ss["supplylog_atlas_13"]);
-	this.gotoAndStop(26);
+	this.initialize(ss["supplylog_atlas_2"]);
+	this.gotoAndStop(25);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.Bitmap54 = function() {
-	this.initialize(ss["supplylog_atlas_13"]);
-	this.gotoAndStop(27);
+	this.initialize(ss["supplylog_atlas_2"]);
+	this.gotoAndStop(26);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.Bitmap54_1 = function() {
-	this.initialize(ss["supplylog_atlas_13"]);
-	this.gotoAndStop(28);
+	this.initialize(ss["supplylog_atlas_2"]);
+	this.gotoAndStop(27);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.Bitmap55 = function() {
-	this.initialize(ss["supplylog_atlas_13"]);
-	this.gotoAndStop(29);
+	this.initialize(ss["supplylog_atlas_2"]);
+	this.gotoAndStop(28);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.Bitmap56 = function() {
-	this.initialize(ss["supplylog_atlas_13"]);
-	this.gotoAndStop(30);
+	this.initialize(ss["supplylog_atlas_2"]);
+	this.gotoAndStop(29);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.Bitmap58 = function() {
-	this.initialize(ss["supplylog_atlas_13"]);
-	this.gotoAndStop(31);
+	this.initialize(ss["supplylog_atlas_2"]);
+	this.gotoAndStop(30);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.Bitmap59 = function() {
-	this.initialize(ss["supplylog_atlas_13"]);
-	this.gotoAndStop(32);
+	this.initialize(ss["supplylog_atlas_2"]);
+	this.gotoAndStop(31);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.btnnormpngcopy = function() {
-	this.initialize(ss["supplylog_atlas_1"]);
+	this.initialize(ss["supplylog_atlas_14"]);
 	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.btnterminal = function() {
-	this.initialize(ss["supplylog_atlas_2"]);
+	this.initialize(ss["supplylog_atlas_13"]);
 	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.btn_ambiental = function() {
-	this.initialize(ss["supplylog_atlas_3"]);
-	this.gotoAndStop(0);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.btn_bio = function() {
-	this.initialize(ss["supplylog_atlas_4"]);
-	this.gotoAndStop(0);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.btn_limpeza = function() {
-	this.initialize(ss["supplylog_atlas_5"]);
-	this.gotoAndStop(0);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.letter = function() {
-	this.initialize(ss["supplylog_atlas_6"]);
-	this.gotoAndStop(0);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.line = function() {
-	this.initialize(ss["supplylog_atlas_7"]);
-	this.gotoAndStop(0);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.logo = function() {
-	this.initialize(ss["supplylog_atlas_8"]);
-	this.gotoAndStop(0);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.s = function() {
 	this.initialize(ss["supplylog_atlas_9"]);
 	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
 
 
 
+(lib.btn_bio = function() {
+	this.initialize(ss["supplylog_atlas_8"]);
+	this.gotoAndStop(0);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.btn_limpeza = function() {
+	this.initialize(ss["supplylog_atlas_7"]);
+	this.gotoAndStop(1);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.letter = function() {
+	this.initialize(ss["supplylog_atlas_6"]);
+	this.gotoAndStop(1);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.line = function() {
+	this.initialize(ss["supplylog_atlas_5"]);
+	this.gotoAndStop(1);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.logo = function() {
+	this.initialize(ss["supplylog_atlas_4"]);
+	this.gotoAndStop(1);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.s = function() {
+	this.initialize(ss["supplylog_atlas_3"]);
+	this.gotoAndStop(1);
+}).prototype = p = new cjs.Sprite();
+
+
+
 (lib.Screenshot20260818at85521AM = function() {
-	this.initialize(ss["supplylog_atlas_13"]);
-	this.gotoAndStop(33);
+	this.initialize(ss["supplylog_atlas_2"]);
+	this.gotoAndStop(32);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.Screenshot20260818at85724AM = function() {
-	this.initialize(ss["supplylog_atlas_13"]);
-	this.gotoAndStop(34);
+	this.initialize(ss["supplylog_atlas_2"]);
+	this.gotoAndStop(33);
 }).prototype = p = new cjs.Sprite();
 // helper functions:
 
@@ -595,7 +595,7 @@ if (reversed == null) { reversed = false; }
 
 	// Layer_2
 	this.shape = new cjs.Shape();
-	var sprImg_shape = cjs.SpriteSheetUtils.extractFrame(ss["supplylog_atlas_13"],19);
+	var sprImg_shape = cjs.SpriteSheetUtils.extractFrame(ss["supplylog_atlas_2"],18);
 	sprImg_shape.onload = function(){
 		this.shape.graphics.bf(sprImg_shape, null, new cjs.Matrix2D(1.115,0,0,1.115,-160.5,-102.5)).s().p("A5EQCMAAAggDMAyJAAAMAAAAgDg")
 	}.bind(this);
@@ -633,7 +633,7 @@ if (reversed == null) { reversed = false; }
 
 	// Layer_2
 	this.shape = new cjs.Shape();
-	var sprImg_shape = cjs.SpriteSheetUtils.extractFrame(ss["supplylog_atlas_13"],18);
+	var sprImg_shape = cjs.SpriteSheetUtils.extractFrame(ss["supplylog_atlas_2"],17);
 	sprImg_shape.onload = function(){
 		this.shape.graphics.bf(sprImg_shape, null, new cjs.Matrix2D(0.926,0,0,0.926,-218.6,-115.8)).s().p("EgiJASGMAAAgkLMBETAAAMAAAAkLg")
 	}.bind(this);
@@ -671,7 +671,7 @@ if (reversed == null) { reversed = false; }
 
 	// Layer_2
 	this.shape = new cjs.Shape();
-	var sprImg_shape = cjs.SpriteSheetUtils.extractFrame(ss["supplylog_atlas_14"],11);
+	var sprImg_shape = cjs.SpriteSheetUtils.extractFrame(ss["supplylog_atlas_1"],12);
 	sprImg_shape.onload = function(){
 		this.shape.graphics.bf(sprImg_shape, null, new cjs.Matrix2D(1.274,0,0,1.274,-186,-99.4)).s().p("A9DPiIAA/DMA6HAAAIAAfDg")
 	}.bind(this);
@@ -743,7 +743,7 @@ if (reversed == null) { reversed = false; }
 
 	// Layer_2
 	this.shape = new cjs.Shape();
-	var sprImg_shape = cjs.SpriteSheetUtils.extractFrame(ss["supplylog_atlas_13"],14);
+	var sprImg_shape = cjs.SpriteSheetUtils.extractFrame(ss["supplylog_atlas_2"],13);
 	sprImg_shape.onload = function(){
 		this.shape.graphics.bf(sprImg_shape, null, new cjs.Matrix2D(1.373,0,0,1.373,-221.7,-119.4)).s().p("EgioASqMAAAglTMBFRAAAMAAAAlTg")
 	}.bind(this);
@@ -781,7 +781,7 @@ if (reversed == null) { reversed = false; }
 
 	// Layer_2
 	this.shape = new cjs.Shape();
-	var sprImg_shape = cjs.SpriteSheetUtils.extractFrame(ss["supplylog_atlas_14"],4);
+	var sprImg_shape = cjs.SpriteSheetUtils.extractFrame(ss["supplylog_atlas_1"],4);
 	sprImg_shape.onload = function(){
 		this.shape.graphics.bf(sprImg_shape, null, new cjs.Matrix2D(1.389,0,0,1.389,-206.9,-109)).s().p("EggUARCMAAAgiDMBApAAAMAAAAiDg")
 	}.bind(this);
@@ -853,7 +853,7 @@ if (reversed == null) { reversed = false; }
 
 	// Layer_2
 	this.shape = new cjs.Shape();
-	var sprImg_shape = cjs.SpriteSheetUtils.extractFrame(ss["supplylog_atlas_14"],3);
+	var sprImg_shape = cjs.SpriteSheetUtils.extractFrame(ss["supplylog_atlas_1"],3);
 	sprImg_shape.onload = function(){
 		this.shape.graphics.bf(sprImg_shape, null, new cjs.Matrix2D(1.438,0,0,1.438,-199,-110.7)).s().p("A/GRTMAAAgilMA+NAAAMAAAAilg")
 	}.bind(this);
@@ -925,7 +925,7 @@ if (reversed == null) { reversed = false; }
 
 	// Layer_2
 	this.shape = new cjs.Shape();
-	var sprImg_shape = cjs.SpriteSheetUtils.extractFrame(ss["supplylog_atlas_14"],10);
+	var sprImg_shape = cjs.SpriteSheetUtils.extractFrame(ss["supplylog_atlas_1"],11);
 	sprImg_shape.onload = function(){
 		this.shape.graphics.bf(sprImg_shape, null, new cjs.Matrix2D(1.234,0,0,1.234,-172.8,-98.1)).s().p("A6/PWIAA+qMA1/AAAIAAeqg")
 	}.bind(this);
@@ -997,7 +997,7 @@ if (reversed == null) { reversed = false; }
 
 	// Layer_2
 	this.shape = new cjs.Shape();
-	var sprImg_shape = cjs.SpriteSheetUtils.extractFrame(ss["supplylog_atlas_14"],8);
+	var sprImg_shape = cjs.SpriteSheetUtils.extractFrame(ss["supplylog_atlas_1"],9);
 	sprImg_shape.onload = function(){
 		this.shape.graphics.bf(sprImg_shape, null, new cjs.Matrix2D(1.138,0,0,1.138,-152,-93.9)).s().p("A3vOrIAA9VMAvfAAAIAAdVg")
 	}.bind(this);
@@ -1035,7 +1035,7 @@ if (reversed == null) { reversed = false; }
 
 	// Layer_2
 	this.shape = new cjs.Shape();
-	var sprImg_shape = cjs.SpriteSheetUtils.extractFrame(ss["supplylog_atlas_14"],7);
+	var sprImg_shape = cjs.SpriteSheetUtils.extractFrame(ss["supplylog_atlas_1"],8);
 	sprImg_shape.onload = function(){
 		this.shape.graphics.bf(sprImg_shape, null, new cjs.Matrix2D(1.234,0,0,1.234,-168.5,-94.4)).s().p("A6UOwIAA9fMA0pAAAIAAdfg")
 	}.bind(this);
@@ -1294,7 +1294,7 @@ if (reversed == null) { reversed = false; }
 
 	// Layer_2
 	this.shape = new cjs.Shape();
-	var sprImg_shape = cjs.SpriteSheetUtils.extractFrame(ss["supplylog_atlas_13"],32);
+	var sprImg_shape = cjs.SpriteSheetUtils.extractFrame(ss["supplylog_atlas_2"],31);
 	sprImg_shape.onload = function(){
 		this.shape.graphics.bf(sprImg_shape, null, new cjs.Matrix2D(1.267,0,0,1.267,-220.4,-119.7)).s().p("EgibAStMAAAglZMBE3AAAMAAAAlZg")
 	}.bind(this);
@@ -1502,7 +1502,7 @@ if (reversed == null) { reversed = false; }
 
 	// Layer_2
 	this.shape = new cjs.Shape();
-	var sprImg_shape = cjs.SpriteSheetUtils.extractFrame(ss["supplylog_atlas_13"],17);
+	var sprImg_shape = cjs.SpriteSheetUtils.extractFrame(ss["supplylog_atlas_2"],16);
 	sprImg_shape.onload = function(){
 		this.shape.graphics.bf(sprImg_shape, null, new cjs.Matrix2D(1.207,0,0,1.207,-170.8,-105)).s().p("A6sQaMAAAgg0MA1ZAAAMAAAAg0g")
 	}.bind(this);
@@ -1540,7 +1540,7 @@ if (reversed == null) { reversed = false; }
 
 	// Layer_2
 	this.shape = new cjs.Shape();
-	var sprImg_shape = cjs.SpriteSheetUtils.extractFrame(ss["supplylog_atlas_14"],6);
+	var sprImg_shape = cjs.SpriteSheetUtils.extractFrame(ss["supplylog_atlas_1"],7);
 	sprImg_shape.onload = function(){
 		this.shape.graphics.bf(sprImg_shape, null, new cjs.Matrix2D(1.327,0,0,1.327,-178.5,-100.2)).s().p("A74PqIAA/TMA3xAAAIAAfTg")
 	}.bind(this);
@@ -1578,7 +1578,7 @@ if (reversed == null) { reversed = false; }
 
 	// Layer_2
 	this.shape = new cjs.Shape();
-	var sprImg_shape = cjs.SpriteSheetUtils.extractFrame(ss["supplylog_atlas_14"],5);
+	var sprImg_shape = cjs.SpriteSheetUtils.extractFrame(ss["supplylog_atlas_1"],6);
 	sprImg_shape.onload = function(){
 		this.shape.graphics.bf(sprImg_shape, null, new cjs.Matrix2D(1.376,0,0,1.376,-198.9,-105.3)).s().p("A/EQdMAAAgg5MA+JAAAMAAAAg5g")
 	}.bind(this);
@@ -1650,7 +1650,7 @@ if (reversed == null) { reversed = false; }
 
 	// Layer_2
 	this.shape = new cjs.Shape();
-	var sprImg_shape = cjs.SpriteSheetUtils.extractFrame(ss["supplylog_atlas_13"],16);
+	var sprImg_shape = cjs.SpriteSheetUtils.extractFrame(ss["supplylog_atlas_2"],15);
 	sprImg_shape.onload = function(){
 		this.shape.graphics.bf(sprImg_shape, null, new cjs.Matrix2D(1.337,0,0,1.337,-196.5,-110.3)).s().p("A+tRPMAAAgidMA9bAAAMAAAAidg")
 	}.bind(this);
@@ -1688,7 +1688,7 @@ if (reversed == null) { reversed = false; }
 
 	// Layer_2
 	this.shape = new cjs.Shape();
-	var sprImg_shape = cjs.SpriteSheetUtils.extractFrame(ss["supplylog_atlas_13"],15);
+	var sprImg_shape = cjs.SpriteSheetUtils.extractFrame(ss["supplylog_atlas_2"],14);
 	sprImg_shape.onload = function(){
 		this.shape.graphics.bf(sprImg_shape, null, new cjs.Matrix2D(1.211,0,0,1.211,-182.2,-102.3)).s().p("A8eP/IAA/9MA49AAAIAAf9g")
 	}.bind(this);
@@ -3365,611 +3365,487 @@ if (reversed == null) { reversed = false; }
 	// timeline functions:
 	this.frame_0 = function() {
 		this.stop();
-		
-		/* =========================================================
-		   REFERÊNCIA PRINCIPAL
-		   ========================================================= */
-		
+
+		// referencia principal
 		var root = this;
-		
-		
-		/* =========================================================
-		   ESCONDE O FUNDO ESTÁTICO (camada "bg" / instance_7)
-		   Essa camada é uma imagem opaca (gradiente + preto) que
-		   cobre a tela inteira e ficava por cima do vídeo de fundo,
-		   escondendo ele. O vídeo deve aparecer atrás de tudo.
-		   ========================================================= */
-		
+
+		// esconde o fundo estatico (bg / instance_7)
 		if (root.instance_7) {
-		    root.instance_7.visible = false;
+		root.instance_7.visible = false;
 		}
-		
-		
-		/* =========================================================
-		   BACKGROUND VIDEO
-		   ========================================================= */
-		
-		var container = document.getElementById("animation_container");
-		var canvasElement = document.getElementById("canvas");
-		
-		var bgVideo = document.getElementById("bgVideo");
-		
-		
-		/* =========================================================
-		   CRIA O BACKGROUND VIDEO
-		   ========================================================= */
-		
+
+		// background video
+		var container =
+		document.getElementById("animation_container");
+		var canvasElement =
+		document.getElementById("canvas");
+		var bgVideo =
+		document.getElementById("bgVideo");
+
+		// cria o background video
 		if (!bgVideo) {
-		
-		    bgVideo = document.createElement("video");
-		
-		    bgVideo.id = "bgVideo";
-		
-		    // CAMINHO DO VÍDEO
-		    bgVideo.src = "videos/bg_intro.mp4";
-		
-		
-		    /* -----------------------------------------------------
-		       CONFIGURAÇÕES DO VÍDEO
-		       ----------------------------------------------------- */
-		
-		    bgVideo.autoplay = true;
-		    bgVideo.loop = true;
-		
-		    // necessário para autoplay em tablets
-		    bgVideo.muted = true;
-		    bgVideo.defaultMuted = true;
-		
-		    bgVideo.playsInline = true;
-		    bgVideo.preload = "auto";
-		
-		
-		    /* -----------------------------------------------------
-		       ATRIBUTOS HTML
-		       ----------------------------------------------------- */
-		
-		    bgVideo.setAttribute("autoplay", "");
-		    bgVideo.setAttribute("loop", "");
-		    bgVideo.setAttribute("muted", "");
-		    bgVideo.setAttribute("playsinline", "");
-		    bgVideo.setAttribute("webkit-playsinline", "");
-		
-		
-		    /* -----------------------------------------------------
-		       POSICIONAMENTO DO VÍDEO
-		       ----------------------------------------------------- */
-		
-		    bgVideo.style.position = "fixed";
-		
-		    bgVideo.style.left = "0";
-		    bgVideo.style.top = "0";
-		
-		    bgVideo.style.width = "100vw";
-		    bgVideo.style.height = "100vh";
-		
-		    // ocupa toda a tela sem deformar, em qualquer proporção de device (celular, tablet, desktop)
-		    bgVideo.style.objectFit = "cover";
-		
-		    // atrás do Canvas
-		    bgVideo.style.zIndex = "0";
-		
-		    // vídeo não recebe clique
-		    bgVideo.style.pointerEvents = "none";
-		
-		
-		    /* -----------------------------------------------------
-		       COLOCA O VIDEO NO BODY, FIXO ATRÁS DO CANVAS
-		       (cobre a tela inteira mesmo quando o canvas fica
-		       letterboxed em proporções diferentes de 16:9)
-		       ----------------------------------------------------- */
-		
-		    document.body.insertBefore(bgVideo, container);
-		
-		
-		    /* -----------------------------------------------------
-		       DEBUG
-		       ----------------------------------------------------- */
-		
-		    bgVideo.addEventListener("loadeddata", function () {
-		
-		        console.log("BG VIDEO carregado.");
-		
-		    });
-		
-		
-		    bgVideo.addEventListener("canplay", function () {
-		
-		        console.log("BG VIDEO pronto.");
-		
-		    });
-		
-		
-		    bgVideo.addEventListener("error", function () {
-		
-		        console.log("Erro no BG VIDEO.");
-		
-		        console.log(bgVideo.error);
-		        console.log(bgVideo.currentSrc);
-		
-		    });
-		
+
+		bgVideo = document.createElement("video");
+		bgVideo.id = "bgVideo";
+		bgVideo.src = "videos/bg_intro.mp4";
+
+		bgVideo.autoplay = true;
+		bgVideo.loop = true;
+		bgVideo.muted = true;
+		bgVideo.defaultMuted = true;
+		bgVideo.playsInline = true;
+		bgVideo.preload = "auto";
+
+		bgVideo.setAttribute(
+		"autoplay", ""
+		);
+		bgVideo.setAttribute(
+		"loop", ""
+		);
+		bgVideo.setAttribute(
+		"muted", ""
+		);
+		bgVideo.setAttribute(
+		"playsinline", ""
+		);
+		bgVideo.setAttribute(
+		"webkit-playsinline", ""
+		);
+
+		// posicionamento do video
+		bgVideo.style.position =
+		"fixed";
+		bgVideo.style.left = "0";
+		bgVideo.style.top = "0";
+		bgVideo.style.width =
+		"100vw";
+		bgVideo.style.height =
+		"100vh";
+		bgVideo.style.objectFit =
+		"cover";
+		bgVideo.style.zIndex =
+		"0";
+		bgVideo.style.pointerEvents =
+		"none";
+
+		// coloca no body, atras do canvas
+		document.body.insertBefore(
+		bgVideo,
+		container
+		);
+
+		// debug
+		bgVideo.addEventListener(
+		"loadeddata",
+		function () {
+		console.log(
+		"BG VIDEO carregado."
+		);
 		}
-		
-		
-		/* =========================================================
-		   CONTAINER
-		   ========================================================= */
-		
-		container.style.backgroundColor = "transparent";
-		container.style.overflow = "hidden";
-		
-		
-		/* =========================================================
-		   CANVAS
-		   ========================================================= */
-		
-		canvasElement.style.zIndex = "1";
-		canvasElement.style.backgroundColor = "transparent";
-		
-		
-		/* =========================================================
-		   INICIA O BACKGROUND VIDEO
-		   ========================================================= */
-		
+		);
+
+		bgVideo.addEventListener(
+		"canplay",
+		function () {
+		console.log(
+		"BG VIDEO pronto."
+		);
+		}
+		);
+
+		bgVideo.addEventListener(
+		"error",
+		function () {
+		console.log(
+		"Erro no BG VIDEO."
+		);
+		console.log(
+		bgVideo.error
+		);
+		console.log(
+		bgVideo.currentSrc
+		);
+		}
+		);
+
+		}
+
+		// container
+		container.style.backgroundColor =
+		"transparent";
+		container.style.overflow =
+		"hidden";
+
+		// canvas
+		canvasElement.style.zIndex =
+		"1";
+		canvasElement.style.backgroundColor =
+		"transparent";
+
+		// inicia o background video
 		bgVideo.play()
-
 		.then(function () {
-
-		    console.log("BG VIDEO rodando.");
-
+		console.log(
+		"BG VIDEO rodando."
+		);
 		})
-
 		.catch(function (error) {
-
-		    console.log("Autoplay bloqueado:", error);
-
+		console.log(
+		"Autoplay bloqueado:",
+		error
+		);
 		});
 
-
-		/* =========================================================
-		   ESTADO INICIAL
-		   ========================================================= */
-		
+		// estado inicial
 		root.mcMenu.visible = true;
-		
 		root.mcConteudo.removeAllChildren();
-		
-		
-		/* =========================================================
-		   FUNÇÃO: ABRIR TERMINAL
-		   ========================================================= */
-		
-		root.abrirTerminal = function () {
-		
-		    console.log("Abrindo mcTerminal");
-		
-		    root.mcMenu.visible = false;
-		
-		    root.mcConteudo.removeAllChildren();
-		
-		    var telaTerminal = new lib.mcTerminal();
-		
-		    telaTerminal.x = 0;
-		    telaTerminal.y = 0;
-		
-		    root.mcConteudo.addChild(telaTerminal);
-		
-		    telaTerminal.gotoAndPlay(0);
 
-		    root.telaAtual = telaTerminal;
+		// funcao: abrir terminal
+		root.abrirTerminal =
+		function () {
 
-		};
-
-
-		/* =========================================================
-		   CRIA PLAYER FULLSCREEN GLOBAL
-		   ========================================================= */
-		
-		function criarPlayerFullscreen() {
-		
-		    var overlay = document.getElementById("videoOverlay");
-		
-		    if (overlay) {
-		        return;
-		    }
-		
-		
-		    /* -----------------------------------------------------
-		       OVERLAY
-		       ----------------------------------------------------- */
-		
-		    overlay = document.createElement("div");
-		
-		    overlay.id = "videoOverlay";
-		
-		    overlay.style.position = "fixed";
-		
-		    overlay.style.left = "0";
-		    overlay.style.top = "0";
-		
-		    overlay.style.width = "100%";
-		    overlay.style.height = "100%";
-		
-		    overlay.style.backgroundColor = "#000";
-		
-		    overlay.style.zIndex = "99999";
-		
-		    overlay.style.display = "none";
-		
-		    overlay.style.overflow = "hidden";
-		
-		
-		    /* -----------------------------------------------------
-		       VIDEO
-		       ----------------------------------------------------- */
-		
-		    var video = document.createElement("video");
-		
-		    video.id = "contentVideo";
-		
-		    video.controls = true;
-		
-		    video.preload = "auto";
-		
-		    video.playsInline = true;
-		
-		    video.setAttribute("playsinline", "");
-		    video.setAttribute("webkit-playsinline", "");
-		
-		    video.style.position = "absolute";
-		
-		    video.style.left = "0";
-		    video.style.top = "0";
-		
-		    video.style.width = "100%";
-		    video.style.height = "100%";
-		
-		    video.style.objectFit = "contain";
-		
-		    video.style.backgroundColor = "#000";
-		
-		    video.style.zIndex = "1";
-		
-		
-		    /* -----------------------------------------------------
-		       BOTÃO FECHAR
-		       ----------------------------------------------------- */
-		
-		    var btnFechar = document.createElement("button");
-		
-		    btnFechar.id = "btnFecharVideo";
-		
-		    btnFechar.innerHTML = "×";
-		
-		    btnFechar.setAttribute(
-		        "aria-label",
-		        "Fechar vídeo"
-		    );
-		
-		    btnFechar.style.position = "absolute";
-		
-		    btnFechar.style.top = "24px";
-		    btnFechar.style.right = "24px";
-		
-		    btnFechar.style.width = "64px";
-		    btnFechar.style.height = "64px";
-		
-		    btnFechar.style.border = "2px solid rgba(255,255,255,0.8)";
-		
-		    btnFechar.style.borderRadius = "50%";
-		
-		    btnFechar.style.backgroundColor = "rgba(0,0,0,0.65)";
-		
-		    btnFechar.style.color = "#FFFFFF";
-		
-		    btnFechar.style.fontFamily = "Arial, sans-serif";
-		
-		    btnFechar.style.fontSize = "42px";
-		
-		    btnFechar.style.fontWeight = "300";
-		
-		    btnFechar.style.lineHeight = "56px";
-		
-		    btnFechar.style.textAlign = "center";
-		
-		    btnFechar.style.padding = "0";
-		
-		    btnFechar.style.cursor = "pointer";
-		
-		    btnFechar.style.zIndex = "10";
-		
-		    btnFechar.style.boxSizing = "border-box";
-		
-		    btnFechar.style.touchAction = "manipulation";
-		
-		    // área de toque maior no tablet
-		    btnFechar.style.minWidth = "64px";
-		    btnFechar.style.minHeight = "64px";
-		
-		
-		    /* -----------------------------------------------------
-		       MONTA O PLAYER
-		       ----------------------------------------------------- */
-		
-		    overlay.appendChild(video);
-		
-		    overlay.appendChild(btnFechar);
-		
-		    document.body.appendChild(overlay);
-		
-		
-		    /* -----------------------------------------------------
-		       BOTÃO X
-		       ----------------------------------------------------- */
-		
-		    btnFechar.addEventListener(
-		        "click",
-		        function () {
-		
-		            fecharContentVideo();
-		
-		        }
-		    );
-		
-		}
-		
-		
-		/* =========================================================
-		   ABRIR VIDEO FULLSCREEN
-		   ========================================================= */
-		
-		root.abrirVideoFullscreen = function (arquivo) {
-		
-		    criarPlayerFullscreen();
-		
-		    var overlay =
-		        document.getElementById("videoOverlay");
-		
-		    var video =
-		        document.getElementById("contentVideo");
-		
-		
-		    /* -----------------------------------------------------
-		       PREPARA PLAYER
-		       ----------------------------------------------------- */
-		
-		    video.pause();
-		
-		    video.src = arquivo;
-		
-		    video.currentTime = 0;
-		
-		    video.loop = false;
-		
-		    video.muted = false;
-		
-		    video.style.display = "block";
-		
-		    overlay.style.display = "block";
-		
-		    video.load();
-		
-		
-		    /* -----------------------------------------------------
-		       PLAY
-		       ----------------------------------------------------- */
-		
-		    var playPromise = video.play();
-		
-		    if (playPromise !== undefined) {
-		
-		        playPromise.catch(function (error) {
-		
-		            console.log(
-		                "Erro ao reproduzir vídeo:",
-		                error
-		            );
-		
-		        });
-		
-		    }
-		
-		
-		    /* -----------------------------------------------------
-		       FULLSCREEN DO CONTAINER
-		       ----------------------------------------------------- */
-		
-		    if (overlay.requestFullscreen) {
-		
-		        overlay.requestFullscreen()
-		
-		        .catch(function (error) {
-		
-		            console.log(
-		                "Fullscreen não disponível:",
-		                error
-		            );
-		
-		        });
-		
-		    }
-		
-		    else if (overlay.webkitRequestFullscreen) {
-		
-		        overlay.webkitRequestFullscreen();
-		
-		    }
-		
-		    else {
-		
-		        /*
-		        Fallback:
-		        overlay já ocupa toda viewport.
-		        */
-		
-		        console.log(
-		            "Fullscreen visual ativado."
-		        );
-		
-		    }
-		
-		};
-		
-		
-		/* =========================================================
-		   FECHAR CONTENT VIDEO
-		   ========================================================= */
-		
-		function fecharContentVideo() {
-		
-		    var overlay =
-		        document.getElementById("videoOverlay");
-		
-		    var video =
-		        document.getElementById("contentVideo");
-		
-		
-		    /* -----------------------------------------------------
-		       PARA O VÍDEO
-		       ----------------------------------------------------- */
-		
-		    if (video) {
-		
-		        video.pause();
-		
-		        try {
-		
-		            video.currentTime = 0;
-		
-		        }
-		
-		        catch (e) {
-		
-		            console.log(
-		                "Não foi possível zerar o vídeo."
-		            );
-		
-		        }
-		
-		    }
-		
-		
-		    /* -----------------------------------------------------
-		       SAI DO FULLSCREEN
-		       ----------------------------------------------------- */
-		
-		    if (document.fullscreenElement) {
-		
-		        document.exitFullscreen()
-		
-		        .catch(function (error) {
-		
-		            console.log(
-		                "Erro ao sair do fullscreen:",
-		                error
-		            );
-		
-		            esconderPlayerVideo();
-		
-		        });
-		
-		        return;
-		
-		    }
-		
-		
-		    if (
-		        document.webkitFullscreenElement &&
-		        document.webkitExitFullscreen
-		    ) {
-		
-		        document.webkitExitFullscreen();
-		
-		        return;
-		
-		    }
-		
-		
-		    /* -----------------------------------------------------
-		       SE NÃO ESTIVER EM FULLSCREEN REAL
-		       ----------------------------------------------------- */
-		
-		    esconderPlayerVideo();
-		
-		}
-		
-		
-		/* =========================================================
-		   ESCONDE O PLAYER
-		   ========================================================= */
-		
-		function esconderPlayerVideo() {
-		
-		    var overlay =
-		        document.getElementById("videoOverlay");
-		
-		    var video =
-		        document.getElementById("contentVideo");
-		
-		
-		    if (video) {
-		
-		        video.pause();
-		
-		        try {
-		
-		            video.currentTime = 0;
-		
-		        }
-		
-		        catch (e) {}
-		
-		        // descarrega o vídeo atual
-		        video.removeAttribute("src");
-		
-		        video.load();
-		
-		    }
-		
-		
-		    if (overlay) {
-		
-		        overlay.style.display = "none";
-		
-		    }
-		
-		}
-		
-		
-		/* =========================================================
-		   SAÍDA DO FULLSCREEN
-		   ========================================================= */
-		
-		document.addEventListener(
-		    "fullscreenchange",
-		    function () {
-		
-		        if (!document.fullscreenElement) {
-		
-		            esconderPlayerVideo();
-		
-		        }
-		
-		    }
+		console.log(
+		"Abrindo mcTerminal"
 		);
-		
-		
+
+		root.mcMenu.visible = false;
+		root.mcConteudo.removeAllChildren();
+
+		var telaTerminal =
+		new lib.mcTerminal();
+
+		telaTerminal.x = 0;
+		telaTerminal.y = 0;
+
+		root.mcConteudo.addChild(
+		telaTerminal
+		);
+
+		telaTerminal.gotoAndPlay(0);
+
+		root.telaAtual =
+		telaTerminal;
+
+		};
+
+		// cria player fullscreen global
+		function criarPlayerFullscreen() {
+
+		var overlay =
+		document.getElementById("videoOverlay");
+
+		if (overlay) {
+		return;
+		}
+
+		// overlay
+		overlay =
+		document.createElement("div");
+		overlay.id = "videoOverlay";
+
+		overlay.style.position =
+		"fixed";
+		overlay.style.left = "0";
+		overlay.style.top = "0";
+		overlay.style.width =
+		"100%";
+		overlay.style.height =
+		"100%";
+		overlay.style.backgroundColor =
+		"#000";
+		overlay.style.zIndex =
+		"99999";
+		overlay.style.display =
+		"none";
+		overlay.style.overflow =
+		"hidden";
+
+		// video
+		var video =
+		document.createElement("video");
+		video.id = "contentVideo";
+		video.controls = true;
+		video.preload = "auto";
+		video.playsInline = true;
+
+		video.setAttribute(
+		"playsinline", ""
+		);
+		video.setAttribute(
+		"webkit-playsinline", ""
+		);
+
+		video.style.position =
+		"absolute";
+		video.style.left = "0";
+		video.style.top = "0";
+		video.style.width =
+		"100%";
+		video.style.height =
+		"100%";
+		video.style.objectFit =
+		"contain";
+		video.style.backgroundColor =
+		"#000";
+		video.style.zIndex =
+		"1";
+
+		// botao fechar
+		var btnFechar =
+		document.createElement("button");
+		btnFechar.id =
+		"btnFecharVideo";
+		btnFechar.innerHTML = "×";
+
+		btnFechar.setAttribute(
+		"aria-label",
+		"Fechar video"
+		);
+
+		btnFechar.style.position =
+		"absolute";
+		btnFechar.style.top =
+		"24px";
+		btnFechar.style.right =
+		"24px";
+		btnFechar.style.width =
+		"64px";
+		btnFechar.style.height =
+		"64px";
+
+		btnFechar.style.border =
+		"2px solid";
+		btnFechar.style.borderColor =
+		"rgba(255,255,255,0.8)";
+
+		btnFechar.style.borderRadius =
+		"50%";
+		btnFechar.style.backgroundColor =
+		"rgba(0,0,0,0.65)";
+		btnFechar.style.color =
+		"#FFFFFF";
+
+		btnFechar.style.fontFamily =
+		"Arial, sans-serif";
+		btnFechar.style.fontSize =
+		"42px";
+		btnFechar.style.fontWeight =
+		"300";
+		btnFechar.style.lineHeight =
+		"56px";
+		btnFechar.style.textAlign =
+		"center";
+		btnFechar.style.padding =
+		"0";
+		btnFechar.style.cursor =
+		"pointer";
+		btnFechar.style.zIndex =
+		"10";
+		btnFechar.style.boxSizing =
+		"border-box";
+		btnFechar.style.touchAction =
+		"manipulation";
+
+		// area de toque maior no tablet
+		btnFechar.style.minWidth =
+		"64px";
+		btnFechar.style.minHeight =
+		"64px";
+
+		// monta o player
+		overlay.appendChild(video);
+		overlay.appendChild(btnFechar);
+		document.body.appendChild(overlay);
+
+		// botao x
+		btnFechar.addEventListener(
+		"click",
+		function () {
+		fecharContentVideo();
+		}
+		);
+
+		}
+
+		// abrir video fullscreen
+		root.abrirVideoFullscreen =
+		function (arquivo) {
+
+		criarPlayerFullscreen();
+
+		var overlay =
+		document.getElementById("videoOverlay");
+		var video =
+		document.getElementById("contentVideo");
+
+		// prepara player
+		video.pause();
+		video.src = arquivo;
+		video.currentTime = 0;
+		video.loop = false;
+		video.muted = false;
+
+		video.style.display =
+		"block";
+		overlay.style.display =
+		"block";
+
+		video.load();
+
+		// play
+		var playPromise =
+		video.play();
+
+		if (playPromise !== undefined) {
+
+		playPromise.catch(
+		function (error) {
+		console.log(
+		"Erro ao reproduzir video:",
+		error
+		);
+		}
+		);
+
+		}
+
+		// fullscreen do container
+		if (overlay.requestFullscreen) {
+
+		overlay.requestFullscreen()
+		.catch(function (error) {
+		console.log(
+		"Fullscreen nao disponivel:",
+		error
+		);
+		});
+
+		}
+		else if (
+		overlay.webkitRequestFullscreen
+		) {
+
+		overlay.webkitRequestFullscreen();
+
+		}
+		else {
+
+		// fallback: overlay ja
+		// ocupa toda viewport
+		console.log(
+		"Fullscreen visual ativado."
+		);
+
+		}
+
+		};
+
+		// fechar content video
+		function fecharContentVideo() {
+
+		var overlay =
+		document.getElementById("videoOverlay");
+		var video =
+		document.getElementById("contentVideo");
+
+		// para o video
+		if (video) {
+
+		video.pause();
+
+		try {
+		video.currentTime = 0;
+		}
+		catch (e) {
+		console.log(
+		"Nao foi possivel zerar o video."
+		);
+		}
+
+		}
+
+		// sai do fullscreen
+		if (document.fullscreenElement) {
+
+		document.exitFullscreen()
+		.catch(function (error) {
+		console.log(
+		"Erro ao sair do fullscreen:",
+		error
+		);
+		esconderPlayerVideo();
+		});
+
+		return;
+
+		}
+
+		if (
+		document.webkitFullscreenElement &&
+		document.webkitExitFullscreen
+		) {
+
+		document.webkitExitFullscreen();
+
+		return;
+
+		}
+
+		// se nao estiver em fullscreen real
+		esconderPlayerVideo();
+
+		}
+
+		// esconde o player
+		function esconderPlayerVideo() {
+
+		var overlay =
+		document.getElementById("videoOverlay");
+		var video =
+		document.getElementById("contentVideo");
+
+		if (video) {
+
+		video.pause();
+
+		try {
+		video.currentTime = 0;
+		}
+		catch (e) {}
+
+		video.removeAttribute("src");
+		video.load();
+
+		}
+
+		if (overlay) {
+		overlay.style.display =
+		"none";
+		}
+
+		}
+
+		// saida do fullscreen
 		document.addEventListener(
-		    "webkitfullscreenchange",
-		    function () {
-		
-		        if (!document.webkitFullscreenElement) {
-		
-		            esconderPlayerVideo();
-		
-		        }
-		
-		    }
+		"fullscreenchange",
+		function () {
+
+		if (!document.fullscreenElement) {
+		esconderPlayerVideo();
+		}
+
+		}
+		);
+
+		document.addEventListener(
+		"webkitfullscreenchange",
+		function () {
+
+		if (!document.webkitFullscreenElement) {
+		esconderPlayerVideo();
+		}
+
+		}
 		);
 	}
 
@@ -4035,21 +3911,21 @@ lib.properties = {
 	color: "#CCCCCC",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/CachedBmp_28.png?1790005011393", id:"CachedBmp_28"},
-		{src:"images/supplylog_atlas_1.png?1790005011355", id:"supplylog_atlas_1"},
-		{src:"images/supplylog_atlas_2.png?1790005011355", id:"supplylog_atlas_2"},
-		{src:"images/supplylog_atlas_3.png?1790005011355", id:"supplylog_atlas_3"},
-		{src:"images/supplylog_atlas_4.png?1790005011355", id:"supplylog_atlas_4"},
-		{src:"images/supplylog_atlas_5.png?1790005011355", id:"supplylog_atlas_5"},
-		{src:"images/supplylog_atlas_6.png?1790005011355", id:"supplylog_atlas_6"},
-		{src:"images/supplylog_atlas_7.png?1790005011355", id:"supplylog_atlas_7"},
-		{src:"images/supplylog_atlas_8.png?1790005011356", id:"supplylog_atlas_8"},
-		{src:"images/supplylog_atlas_9.png?1790005011363", id:"supplylog_atlas_9"},
-		{src:"images/supplylog_atlas_10.png?1790005011363", id:"supplylog_atlas_10"},
-		{src:"images/supplylog_atlas_11.png?1790005011363", id:"supplylog_atlas_11"},
-		{src:"images/supplylog_atlas_12.png?1790005011363", id:"supplylog_atlas_12"},
-		{src:"images/supplylog_atlas_13.png?1790005011364", id:"supplylog_atlas_13"},
-		{src:"images/supplylog_atlas_14.png?1790005011364", id:"supplylog_atlas_14"}
+		{src:"images/CachedBmp_28.png?1790006801041", id:"CachedBmp_28"},
+		{src:"images/supplylog_atlas_1.png?1790006801001", id:"supplylog_atlas_1"},
+		{src:"images/supplylog_atlas_2.png?1790006801002", id:"supplylog_atlas_2"},
+		{src:"images/supplylog_atlas_3.png?1790006801002", id:"supplylog_atlas_3"},
+		{src:"images/supplylog_atlas_4.png?1790006801002", id:"supplylog_atlas_4"},
+		{src:"images/supplylog_atlas_5.png?1790006801002", id:"supplylog_atlas_5"},
+		{src:"images/supplylog_atlas_6.png?1790006801002", id:"supplylog_atlas_6"},
+		{src:"images/supplylog_atlas_7.png?1790006801002", id:"supplylog_atlas_7"},
+		{src:"images/supplylog_atlas_8.png?1790006801002", id:"supplylog_atlas_8"},
+		{src:"images/supplylog_atlas_9.png?1790006801002", id:"supplylog_atlas_9"},
+		{src:"images/supplylog_atlas_10.png?1790006801002", id:"supplylog_atlas_10"},
+		{src:"images/supplylog_atlas_11.png?1790006801002", id:"supplylog_atlas_11"},
+		{src:"images/supplylog_atlas_12.png?1790006801002", id:"supplylog_atlas_12"},
+		{src:"images/supplylog_atlas_13.png?1790006801002", id:"supplylog_atlas_13"},
+		{src:"images/supplylog_atlas_14.png?1790006801002", id:"supplylog_atlas_14"}
 	],
 	preloads: []
 };
