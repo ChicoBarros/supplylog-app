@@ -39,6 +39,14 @@
 	top:0;bottom:0;
   }
 </style>
+<script>
+  // dispara o prompt nativo "Adicionar a tela inicial"
+  // automaticamente, sem esperar clique num botao
+  window.addEventListener("beforeinstallprompt", function (e) {
+    e.preventDefault();
+    e.prompt();
+  });
+</script>
 <script src="https://code.createjs.com/1.0.0/createjs.min.js"></script>
 <script src="supplylog.js"></script>
 <script>
