@@ -3369,11 +3369,6 @@ if (reversed == null) { reversed = false; }
 		// referencia principal
 		var root = this;
 
-		// esconde o fundo estatico (bg / instance_7)
-		if (root.instance_7) {
-		root.instance_7.visible = false;
-		}
-
 		// background video
 		var container =
 		document.getElementById("animation_container");
