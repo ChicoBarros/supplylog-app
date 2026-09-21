@@ -3465,6 +3465,105 @@ if (reversed == null) { reversed = false; }
 
 		}
 
+		// botao sair do app (Fully Kiosk)
+		var btnSairApp =
+		document.getElementById("btnSairApp");
+
+		if (!btnSairApp) {
+
+		btnSairApp =
+		document.createElement("button");
+
+		btnSairApp.id = "btnSairApp";
+		btnSairApp.innerHTML = "&#9211;";
+
+		btnSairApp.setAttribute(
+		"aria-label",
+		"Sair do aplicativo"
+		);
+
+		btnSairApp.style.position =
+		"fixed";
+		btnSairApp.style.top =
+		"24px";
+		btnSairApp.style.right =
+		"24px";
+		btnSairApp.style.width =
+		"64px";
+		btnSairApp.style.height =
+		"64px";
+
+		btnSairApp.style.border =
+		"2px solid";
+		btnSairApp.style.borderColor =
+		"rgba(255,255,255,0.8)";
+
+		btnSairApp.style.borderRadius =
+		"50%";
+		btnSairApp.style.backgroundColor =
+		"rgba(0,0,0,0.65)";
+		btnSairApp.style.color =
+		"#FFFFFF";
+
+		btnSairApp.style.fontFamily =
+		"Arial, sans-serif";
+		btnSairApp.style.fontSize =
+		"28px";
+		btnSairApp.style.lineHeight =
+		"58px";
+		btnSairApp.style.textAlign =
+		"center";
+		btnSairApp.style.padding =
+		"0";
+		btnSairApp.style.cursor =
+		"pointer";
+
+		// acima de qualquer overlay
+		btnSairApp.style.zIndex =
+		"999999";
+
+		btnSairApp.style.boxSizing =
+		"border-box";
+		btnSairApp.style.touchAction =
+		"manipulation";
+
+		// area de toque maior no tablet
+		btnSairApp.style.minWidth =
+		"64px";
+		btnSairApp.style.minHeight =
+		"64px";
+
+		document.body.appendChild(
+		btnSairApp
+		);
+
+		btnSairApp.addEventListener(
+		"click",
+		function () {
+
+		// Fully Kiosk Browser
+		if (
+		window.fully &&
+		typeof window.fully.exitApplication ===
+		"function"
+		) {
+
+		window.fully.exitApplication();
+
+		}
+		else {
+
+		console.log(
+		"Fully Kiosk nao detectado."
+		);
+
+		}
+
+		}
+		);
+
+		}
+
 		// container
 		container.style.backgroundColor =
 		"transparent";
