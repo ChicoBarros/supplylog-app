@@ -40,6 +40,12 @@
   }
 </style>
 <script>
+  // registra o service worker (exigido por varios navegadores
+  // como criterio de instalabilidade do PWA)
+  if ("serviceWorker" in navigator) {
+    navigator.serviceWorker.register("/sw.js");
+  }
+
   // dispara o prompt nativo "Adicionar a tela inicial"
   // automaticamente, sem esperar clique num botao
   window.addEventListener("beforeinstallprompt", function (e) {
