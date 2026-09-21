@@ -3,8 +3,8 @@
 var p; // shortcut to reference prototypes
 var lib={};var ss={};var img={};
 lib.ssMetadata = [
-		{name:"supplylog_atlas_1", frames: [[844,328,20,81],[854,161,20,81],[0,471,299,96],[294,314,277,154],[302,0,298,157],[294,159,289,153],[573,328,269,151],[0,316,273,153],[585,161,267,165],[0,0,300,156],[602,0,280,159],[0,158,292,156]]},
-		{name:"supplylog_atlas_2", frames: [[0,242,1045,269],[0,784,845,269],[0,513,881,269],[847,984,808,269],[0,0,1416,240],[359,1675,769,100],[879,1470,769,100],[879,1572,769,100],[1418,0,544,208],[442,1465,435,208],[500,1255,450,208],[0,1265,440,208],[0,1055,498,208],[1657,1053,323,174],[1130,1674,301,169],[633,1777,294,165],[348,1777,283,174],[1522,621,472,250],[1709,1229,288,184],[1650,1461,310,172],[1433,1812,309,163],[929,1845,301,160],[1695,401,325,174],[1744,1812,304,163],[952,1255,428,213],[1657,873,316,178],[0,1727,346,209],[1382,1255,325,204],[500,1055,343,183],[0,1475,357,250],[1650,1635,300,175],[1695,210,348,189],[1047,242,646,377],[883,621,637,361]]},
+		{name:"supplylog_atlas_1", frames: [[0,0,1920,1080]]},
+		{name:"supplylog_atlas_2", frames: [[0,0,1920,1080]]},
 		{name:"supplylog_atlas_3", frames: [[0,0,1920,1080]]},
 		{name:"supplylog_atlas_4", frames: [[0,0,1920,1080]]},
 		{name:"supplylog_atlas_5", frames: [[0,0,1920,1080]]},
@@ -15,8 +15,8 @@ lib.ssMetadata = [
 		{name:"supplylog_atlas_10", frames: [[0,1235,1446,655],[0,0,1446,1233]]},
 		{name:"supplylog_atlas_11", frames: [[0,0,1446,582],[0,1167,1446,438],[0,584,1320,581],[0,1607,1446,438]]},
 		{name:"supplylog_atlas_12", frames: [[0,1015,1588,240],[0,531,1157,482],[0,1257,1416,240],[0,1499,1416,240],[0,1741,1416,240],[0,0,1157,529]]},
-		{name:"supplylog_atlas_13", frames: [[0,0,1920,1080]]},
-		{name:"supplylog_atlas_14", frames: [[0,0,1920,1080]]}
+		{name:"supplylog_atlas_13", frames: [[0,242,1045,269],[0,784,845,269],[0,513,881,269],[847,984,808,269],[-392638844,3,-1040187284,-788529043],[0,0,1416,240],[359,1675,769,100],[879,1470,769,100],[879,1572,769,100],[1418,0,544,208],[442,1465,435,208],[500,1255,450,208],[0,1265,440,208],[0,1055,498,208],[1657,1053,323,174],[1130,1674,301,169],[633,1777,294,165],[348,1777,283,174],[1522,621,472,250],[1709,1229,288,184],[1650,1461,310,172],[1433,1812,309,163],[929,1845,301,160],[1695,401,325,174],[1744,1812,304,163],[952,1255,428,213],[1657,873,316,178],[0,1727,346,209],[1382,1255,325,204],[500,1055,343,183],[0,1475,357,250],[1650,1635,300,175],[1695,210,348,189],[1047,242,646,377],[883,621,637,361]]},
+		{name:"supplylog_atlas_14", frames: [[844,328,20,81],[854,161,20,81],[0,471,299,96],[294,314,277,154],[302,0,298,157],[294,159,289,153],[573,328,269,151],[0,316,273,153],[585,161,267,165],[0,0,300,156],[602,0,280,159],[0,158,292,156]]}
 ];
 
 
@@ -41,7 +41,7 @@ lib.ssMetadata = [
 
 
 (lib.CachedBmp_29 = function() {
-	this.initialize(ss["supplylog_atlas_1"]);
+	this.initialize(ss["supplylog_atlas_14"]);
 	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
 
@@ -54,28 +54,28 @@ p.nominalBounds = new cjs.Rectangle(0,0,3840,2160);
 
 
 (lib.CachedBmp_27 = function() {
-	this.initialize(ss["supplylog_atlas_2"]);
+	this.initialize(ss["supplylog_atlas_13"]);
 	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_26 = function() {
-	this.initialize(ss["supplylog_atlas_2"]);
+	this.initialize(ss["supplylog_atlas_13"]);
 	this.gotoAndStop(1);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_25 = function() {
-	this.initialize(ss["supplylog_atlas_2"]);
+	this.initialize(ss["supplylog_atlas_13"]);
 	this.gotoAndStop(2);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_24 = function() {
-	this.initialize(ss["supplylog_atlas_2"]);
+	this.initialize(ss["supplylog_atlas_13"]);
 	this.gotoAndStop(3);
 }).prototype = p = new cjs.Sprite();
 
@@ -117,7 +117,7 @@ p.nominalBounds = new cjs.Rectangle(0,0,3840,2160);
 
 
 (lib.CachedBmp_18 = function() {
-	this.initialize(ss["supplylog_atlas_1"]);
+	this.initialize(ss["supplylog_atlas_14"]);
 	this.gotoAndStop(1);
 }).prototype = p = new cjs.Sprite();
 
@@ -138,8 +138,8 @@ p.nominalBounds = new cjs.Rectangle(0,0,3840,2160);
 
 
 (lib.CachedBmp_15 = function() {
-	this.initialize(ss["supplylog_atlas_12"]);
-	this.gotoAndStop(3);
+	this.initialize(ss["supplylog_atlas_13"]);
+	this.gotoAndStop(4);
 }).prototype = p = new cjs.Sprite();
 
 
@@ -173,301 +173,301 @@ p.nominalBounds = new cjs.Rectangle(0,0,3840,2160);
 
 
 (lib.CachedBmp_10 = function() {
-	this.initialize(ss["supplylog_atlas_2"]);
-	this.gotoAndStop(4);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.CachedBmp_9 = function() {
-	this.initialize(ss["supplylog_atlas_2"]);
+	this.initialize(ss["supplylog_atlas_13"]);
 	this.gotoAndStop(5);
 }).prototype = p = new cjs.Sprite();
 
 
 
+(lib.CachedBmp_9 = function() {
+	this.initialize(ss["supplylog_atlas_13"]);
+	this.gotoAndStop(6);
+}).prototype = p = new cjs.Sprite();
+
+
+
 (lib.CachedBmp_8 = function() {
-	this.initialize(ss["supplylog_atlas_1"]);
+	this.initialize(ss["supplylog_atlas_14"]);
 	this.gotoAndStop(2);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_7 = function() {
-	this.initialize(ss["supplylog_atlas_2"]);
-	this.gotoAndStop(6);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.CachedBmp_6 = function() {
-	this.initialize(ss["supplylog_atlas_2"]);
+	this.initialize(ss["supplylog_atlas_13"]);
 	this.gotoAndStop(7);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_5 = function() {
-	this.initialize(ss["supplylog_atlas_2"]);
+(lib.CachedBmp_6 = function() {
+	this.initialize(ss["supplylog_atlas_13"]);
 	this.gotoAndStop(8);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_4 = function() {
-	this.initialize(ss["supplylog_atlas_2"]);
+(lib.CachedBmp_5 = function() {
+	this.initialize(ss["supplylog_atlas_13"]);
 	this.gotoAndStop(9);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_3 = function() {
-	this.initialize(ss["supplylog_atlas_2"]);
+(lib.CachedBmp_4 = function() {
+	this.initialize(ss["supplylog_atlas_13"]);
 	this.gotoAndStop(10);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_2 = function() {
-	this.initialize(ss["supplylog_atlas_2"]);
+(lib.CachedBmp_3 = function() {
+	this.initialize(ss["supplylog_atlas_13"]);
 	this.gotoAndStop(11);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_1 = function() {
-	this.initialize(ss["supplylog_atlas_2"]);
+(lib.CachedBmp_2 = function() {
+	this.initialize(ss["supplylog_atlas_13"]);
 	this.gotoAndStop(12);
 }).prototype = p = new cjs.Sprite();
 
 
 
+(lib.CachedBmp_1 = function() {
+	this.initialize(ss["supplylog_atlas_13"]);
+	this.gotoAndStop(13);
+}).prototype = p = new cjs.Sprite();
+
+
+
 (lib.Bitmap16 = function() {
-	this.initialize(ss["supplylog_atlas_1"]);
+	this.initialize(ss["supplylog_atlas_14"]);
 	this.gotoAndStop(3);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.Bitmap18 = function() {
-	this.initialize(ss["supplylog_atlas_1"]);
+	this.initialize(ss["supplylog_atlas_14"]);
 	this.gotoAndStop(4);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.Bitmap19 = function() {
-	this.initialize(ss["supplylog_atlas_2"]);
-	this.gotoAndStop(13);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.Bitmap21 = function() {
-	this.initialize(ss["supplylog_atlas_2"]);
+	this.initialize(ss["supplylog_atlas_13"]);
 	this.gotoAndStop(14);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.Bitmap23 = function() {
-	this.initialize(ss["supplylog_atlas_2"]);
+(lib.Bitmap21 = function() {
+	this.initialize(ss["supplylog_atlas_13"]);
 	this.gotoAndStop(15);
 }).prototype = p = new cjs.Sprite();
 
 
 
+(lib.Bitmap23 = function() {
+	this.initialize(ss["supplylog_atlas_13"]);
+	this.gotoAndStop(16);
+}).prototype = p = new cjs.Sprite();
+
+
+
 (lib.Bitmap25 = function() {
-	this.initialize(ss["supplylog_atlas_1"]);
+	this.initialize(ss["supplylog_atlas_14"]);
 	this.gotoAndStop(5);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.Bitmap26 = function() {
-	this.initialize(ss["supplylog_atlas_1"]);
+	this.initialize(ss["supplylog_atlas_14"]);
 	this.gotoAndStop(6);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.Bitmap27 = function() {
-	this.initialize(ss["supplylog_atlas_2"]);
-	this.gotoAndStop(16);
+	this.initialize(ss["supplylog_atlas_13"]);
+	this.gotoAndStop(17);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.Bitmap30 = function() {
-	this.initialize(ss["supplylog_atlas_1"]);
+	this.initialize(ss["supplylog_atlas_14"]);
 	this.gotoAndStop(7);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.Bitmap31 = function() {
-	this.initialize(ss["supplylog_atlas_1"]);
+	this.initialize(ss["supplylog_atlas_14"]);
 	this.gotoAndStop(8);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.Bitmap32 = function() {
-	this.initialize(ss["supplylog_atlas_1"]);
+	this.initialize(ss["supplylog_atlas_14"]);
 	this.gotoAndStop(9);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.Bitmap33 = function() {
-	this.initialize(ss["supplylog_atlas_1"]);
+	this.initialize(ss["supplylog_atlas_14"]);
 	this.gotoAndStop(10);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.Bitmap42 = function() {
-	this.initialize(ss["supplylog_atlas_1"]);
+	this.initialize(ss["supplylog_atlas_14"]);
 	this.gotoAndStop(11);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.Bitmap43 = function() {
-	this.initialize(ss["supplylog_atlas_2"]);
-	this.gotoAndStop(17);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.Bitmap44 = function() {
-	this.initialize(ss["supplylog_atlas_2"]);
+	this.initialize(ss["supplylog_atlas_13"]);
 	this.gotoAndStop(18);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.Bitmap45 = function() {
-	this.initialize(ss["supplylog_atlas_2"]);
+(lib.Bitmap44 = function() {
+	this.initialize(ss["supplylog_atlas_13"]);
 	this.gotoAndStop(19);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.Bitmap46 = function() {
-	this.initialize(ss["supplylog_atlas_2"]);
+(lib.Bitmap45 = function() {
+	this.initialize(ss["supplylog_atlas_13"]);
 	this.gotoAndStop(20);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.Bitmap47 = function() {
-	this.initialize(ss["supplylog_atlas_2"]);
+(lib.Bitmap46 = function() {
+	this.initialize(ss["supplylog_atlas_13"]);
 	this.gotoAndStop(21);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.Bitmap50 = function() {
-	this.initialize(ss["supplylog_atlas_2"]);
+(lib.Bitmap47 = function() {
+	this.initialize(ss["supplylog_atlas_13"]);
 	this.gotoAndStop(22);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.Bitmap51 = function() {
-	this.initialize(ss["supplylog_atlas_2"]);
+(lib.Bitmap50 = function() {
+	this.initialize(ss["supplylog_atlas_13"]);
 	this.gotoAndStop(23);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.Bitmap52 = function() {
-	this.initialize(ss["supplylog_atlas_2"]);
+(lib.Bitmap51 = function() {
+	this.initialize(ss["supplylog_atlas_13"]);
 	this.gotoAndStop(24);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.Bitmap53 = function() {
-	this.initialize(ss["supplylog_atlas_2"]);
+(lib.Bitmap52 = function() {
+	this.initialize(ss["supplylog_atlas_13"]);
 	this.gotoAndStop(25);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.Bitmap54 = function() {
-	this.initialize(ss["supplylog_atlas_2"]);
+(lib.Bitmap53 = function() {
+	this.initialize(ss["supplylog_atlas_13"]);
 	this.gotoAndStop(26);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.Bitmap54_1 = function() {
-	this.initialize(ss["supplylog_atlas_2"]);
+(lib.Bitmap54 = function() {
+	this.initialize(ss["supplylog_atlas_13"]);
 	this.gotoAndStop(27);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.Bitmap55 = function() {
-	this.initialize(ss["supplylog_atlas_2"]);
+(lib.Bitmap54_1 = function() {
+	this.initialize(ss["supplylog_atlas_13"]);
 	this.gotoAndStop(28);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.Bitmap56 = function() {
-	this.initialize(ss["supplylog_atlas_2"]);
+(lib.Bitmap55 = function() {
+	this.initialize(ss["supplylog_atlas_13"]);
 	this.gotoAndStop(29);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.Bitmap58 = function() {
-	this.initialize(ss["supplylog_atlas_2"]);
+(lib.Bitmap56 = function() {
+	this.initialize(ss["supplylog_atlas_13"]);
 	this.gotoAndStop(30);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.Bitmap59 = function() {
-	this.initialize(ss["supplylog_atlas_2"]);
+(lib.Bitmap58 = function() {
+	this.initialize(ss["supplylog_atlas_13"]);
 	this.gotoAndStop(31);
 }).prototype = p = new cjs.Sprite();
 
 
 
+(lib.Bitmap59 = function() {
+	this.initialize(ss["supplylog_atlas_13"]);
+	this.gotoAndStop(32);
+}).prototype = p = new cjs.Sprite();
+
+
+
 (lib.btnnormpngcopy = function() {
-	this.initialize(ss["supplylog_atlas_14"]);
+	this.initialize(ss["supplylog_atlas_1"]);
 	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.btnterminal = function() {
-	this.initialize(ss["supplylog_atlas_13"]);
+	this.initialize(ss["supplylog_atlas_2"]);
 	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.btn_ambiental = function() {
-	this.initialize(ss["supplylog_atlas_9"]);
+	this.initialize(ss["supplylog_atlas_3"]);
 	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.btn_bio = function() {
-	this.initialize(ss["supplylog_atlas_8"]);
+	this.initialize(ss["supplylog_atlas_4"]);
 	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.btn_limpeza = function() {
-	this.initialize(ss["supplylog_atlas_7"]);
+	this.initialize(ss["supplylog_atlas_5"]);
 	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
 
@@ -481,36 +481,36 @@ p.nominalBounds = new cjs.Rectangle(0,0,3840,2160);
 
 
 (lib.line = function() {
-	this.initialize(ss["supplylog_atlas_5"]);
+	this.initialize(ss["supplylog_atlas_7"]);
 	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.logo = function() {
-	this.initialize(ss["supplylog_atlas_4"]);
+	this.initialize(ss["supplylog_atlas_8"]);
 	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.s = function() {
-	this.initialize(ss["supplylog_atlas_3"]);
+	this.initialize(ss["supplylog_atlas_9"]);
 	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.Screenshot20260818at85521AM = function() {
-	this.initialize(ss["supplylog_atlas_2"]);
-	this.gotoAndStop(32);
+	this.initialize(ss["supplylog_atlas_13"]);
+	this.gotoAndStop(33);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.Screenshot20260818at85724AM = function() {
-	this.initialize(ss["supplylog_atlas_2"]);
-	this.gotoAndStop(33);
+	this.initialize(ss["supplylog_atlas_13"]);
+	this.gotoAndStop(34);
 }).prototype = p = new cjs.Sprite();
 // helper functions:
 
@@ -595,7 +595,7 @@ if (reversed == null) { reversed = false; }
 
 	// Layer_2
 	this.shape = new cjs.Shape();
-	var sprImg_shape = cjs.SpriteSheetUtils.extractFrame(ss["supplylog_atlas_2"],18);
+	var sprImg_shape = cjs.SpriteSheetUtils.extractFrame(ss["supplylog_atlas_13"],19);
 	sprImg_shape.onload = function(){
 		this.shape.graphics.bf(sprImg_shape, null, new cjs.Matrix2D(1.115,0,0,1.115,-160.5,-102.5)).s().p("A5EQCMAAAggDMAyJAAAMAAAAgDg")
 	}.bind(this);
@@ -633,7 +633,7 @@ if (reversed == null) { reversed = false; }
 
 	// Layer_2
 	this.shape = new cjs.Shape();
-	var sprImg_shape = cjs.SpriteSheetUtils.extractFrame(ss["supplylog_atlas_2"],17);
+	var sprImg_shape = cjs.SpriteSheetUtils.extractFrame(ss["supplylog_atlas_13"],18);
 	sprImg_shape.onload = function(){
 		this.shape.graphics.bf(sprImg_shape, null, new cjs.Matrix2D(0.926,0,0,0.926,-218.6,-115.8)).s().p("EgiJASGMAAAgkLMBETAAAMAAAAkLg")
 	}.bind(this);
@@ -671,7 +671,7 @@ if (reversed == null) { reversed = false; }
 
 	// Layer_2
 	this.shape = new cjs.Shape();
-	var sprImg_shape = cjs.SpriteSheetUtils.extractFrame(ss["supplylog_atlas_1"],11);
+	var sprImg_shape = cjs.SpriteSheetUtils.extractFrame(ss["supplylog_atlas_14"],11);
 	sprImg_shape.onload = function(){
 		this.shape.graphics.bf(sprImg_shape, null, new cjs.Matrix2D(1.274,0,0,1.274,-186,-99.4)).s().p("A9DPiIAA/DMA6HAAAIAAfDg")
 	}.bind(this);
@@ -743,7 +743,7 @@ if (reversed == null) { reversed = false; }
 
 	// Layer_2
 	this.shape = new cjs.Shape();
-	var sprImg_shape = cjs.SpriteSheetUtils.extractFrame(ss["supplylog_atlas_2"],13);
+	var sprImg_shape = cjs.SpriteSheetUtils.extractFrame(ss["supplylog_atlas_13"],14);
 	sprImg_shape.onload = function(){
 		this.shape.graphics.bf(sprImg_shape, null, new cjs.Matrix2D(1.373,0,0,1.373,-221.7,-119.4)).s().p("EgioASqMAAAglTMBFRAAAMAAAAlTg")
 	}.bind(this);
@@ -781,7 +781,7 @@ if (reversed == null) { reversed = false; }
 
 	// Layer_2
 	this.shape = new cjs.Shape();
-	var sprImg_shape = cjs.SpriteSheetUtils.extractFrame(ss["supplylog_atlas_1"],4);
+	var sprImg_shape = cjs.SpriteSheetUtils.extractFrame(ss["supplylog_atlas_14"],4);
 	sprImg_shape.onload = function(){
 		this.shape.graphics.bf(sprImg_shape, null, new cjs.Matrix2D(1.389,0,0,1.389,-206.9,-109)).s().p("EggUARCMAAAgiDMBApAAAMAAAAiDg")
 	}.bind(this);
@@ -853,7 +853,7 @@ if (reversed == null) { reversed = false; }
 
 	// Layer_2
 	this.shape = new cjs.Shape();
-	var sprImg_shape = cjs.SpriteSheetUtils.extractFrame(ss["supplylog_atlas_1"],3);
+	var sprImg_shape = cjs.SpriteSheetUtils.extractFrame(ss["supplylog_atlas_14"],3);
 	sprImg_shape.onload = function(){
 		this.shape.graphics.bf(sprImg_shape, null, new cjs.Matrix2D(1.438,0,0,1.438,-199,-110.7)).s().p("A/GRTMAAAgilMA+NAAAMAAAAilg")
 	}.bind(this);
@@ -925,7 +925,7 @@ if (reversed == null) { reversed = false; }
 
 	// Layer_2
 	this.shape = new cjs.Shape();
-	var sprImg_shape = cjs.SpriteSheetUtils.extractFrame(ss["supplylog_atlas_1"],10);
+	var sprImg_shape = cjs.SpriteSheetUtils.extractFrame(ss["supplylog_atlas_14"],10);
 	sprImg_shape.onload = function(){
 		this.shape.graphics.bf(sprImg_shape, null, new cjs.Matrix2D(1.234,0,0,1.234,-172.8,-98.1)).s().p("A6/PWIAA+qMA1/AAAIAAeqg")
 	}.bind(this);
@@ -997,7 +997,7 @@ if (reversed == null) { reversed = false; }
 
 	// Layer_2
 	this.shape = new cjs.Shape();
-	var sprImg_shape = cjs.SpriteSheetUtils.extractFrame(ss["supplylog_atlas_1"],8);
+	var sprImg_shape = cjs.SpriteSheetUtils.extractFrame(ss["supplylog_atlas_14"],8);
 	sprImg_shape.onload = function(){
 		this.shape.graphics.bf(sprImg_shape, null, new cjs.Matrix2D(1.138,0,0,1.138,-152,-93.9)).s().p("A3vOrIAA9VMAvfAAAIAAdVg")
 	}.bind(this);
@@ -1035,7 +1035,7 @@ if (reversed == null) { reversed = false; }
 
 	// Layer_2
 	this.shape = new cjs.Shape();
-	var sprImg_shape = cjs.SpriteSheetUtils.extractFrame(ss["supplylog_atlas_1"],7);
+	var sprImg_shape = cjs.SpriteSheetUtils.extractFrame(ss["supplylog_atlas_14"],7);
 	sprImg_shape.onload = function(){
 		this.shape.graphics.bf(sprImg_shape, null, new cjs.Matrix2D(1.234,0,0,1.234,-168.5,-94.4)).s().p("A6UOwIAA9fMA0pAAAIAAdfg")
 	}.bind(this);
@@ -1294,7 +1294,7 @@ if (reversed == null) { reversed = false; }
 
 	// Layer_2
 	this.shape = new cjs.Shape();
-	var sprImg_shape = cjs.SpriteSheetUtils.extractFrame(ss["supplylog_atlas_2"],31);
+	var sprImg_shape = cjs.SpriteSheetUtils.extractFrame(ss["supplylog_atlas_13"],32);
 	sprImg_shape.onload = function(){
 		this.shape.graphics.bf(sprImg_shape, null, new cjs.Matrix2D(1.267,0,0,1.267,-220.4,-119.7)).s().p("EgibAStMAAAglZMBE3AAAMAAAAlZg")
 	}.bind(this);
@@ -1502,7 +1502,7 @@ if (reversed == null) { reversed = false; }
 
 	// Layer_2
 	this.shape = new cjs.Shape();
-	var sprImg_shape = cjs.SpriteSheetUtils.extractFrame(ss["supplylog_atlas_2"],16);
+	var sprImg_shape = cjs.SpriteSheetUtils.extractFrame(ss["supplylog_atlas_13"],17);
 	sprImg_shape.onload = function(){
 		this.shape.graphics.bf(sprImg_shape, null, new cjs.Matrix2D(1.207,0,0,1.207,-170.8,-105)).s().p("A6sQaMAAAgg0MA1ZAAAMAAAAg0g")
 	}.bind(this);
@@ -1540,7 +1540,7 @@ if (reversed == null) { reversed = false; }
 
 	// Layer_2
 	this.shape = new cjs.Shape();
-	var sprImg_shape = cjs.SpriteSheetUtils.extractFrame(ss["supplylog_atlas_1"],6);
+	var sprImg_shape = cjs.SpriteSheetUtils.extractFrame(ss["supplylog_atlas_14"],6);
 	sprImg_shape.onload = function(){
 		this.shape.graphics.bf(sprImg_shape, null, new cjs.Matrix2D(1.327,0,0,1.327,-178.5,-100.2)).s().p("A74PqIAA/TMA3xAAAIAAfTg")
 	}.bind(this);
@@ -1578,7 +1578,7 @@ if (reversed == null) { reversed = false; }
 
 	// Layer_2
 	this.shape = new cjs.Shape();
-	var sprImg_shape = cjs.SpriteSheetUtils.extractFrame(ss["supplylog_atlas_1"],5);
+	var sprImg_shape = cjs.SpriteSheetUtils.extractFrame(ss["supplylog_atlas_14"],5);
 	sprImg_shape.onload = function(){
 		this.shape.graphics.bf(sprImg_shape, null, new cjs.Matrix2D(1.376,0,0,1.376,-198.9,-105.3)).s().p("A/EQdMAAAgg5MA+JAAAMAAAAg5g")
 	}.bind(this);
@@ -1650,7 +1650,7 @@ if (reversed == null) { reversed = false; }
 
 	// Layer_2
 	this.shape = new cjs.Shape();
-	var sprImg_shape = cjs.SpriteSheetUtils.extractFrame(ss["supplylog_atlas_2"],15);
+	var sprImg_shape = cjs.SpriteSheetUtils.extractFrame(ss["supplylog_atlas_13"],16);
 	sprImg_shape.onload = function(){
 		this.shape.graphics.bf(sprImg_shape, null, new cjs.Matrix2D(1.337,0,0,1.337,-196.5,-110.3)).s().p("A+tRPMAAAgidMA9bAAAMAAAAidg")
 	}.bind(this);
@@ -1688,7 +1688,7 @@ if (reversed == null) { reversed = false; }
 
 	// Layer_2
 	this.shape = new cjs.Shape();
-	var sprImg_shape = cjs.SpriteSheetUtils.extractFrame(ss["supplylog_atlas_2"],14);
+	var sprImg_shape = cjs.SpriteSheetUtils.extractFrame(ss["supplylog_atlas_13"],15);
 	sprImg_shape.onload = function(){
 		this.shape.graphics.bf(sprImg_shape, null, new cjs.Matrix2D(1.211,0,0,1.211,-182.2,-102.3)).s().p("A8eP/IAA/9MA49AAAIAAf9g")
 	}.bind(this);
@@ -3373,16 +3373,16 @@ if (reversed == null) { reversed = false; }
 		var root = this;
 		
 		
-		    /* =========================================================
-		       ESCONDE O FUNDO ESTATICO (camada "bg" / instance_7)
-		       Essa camada e uma imagem opaca (gradiente + preto) que
-		       cobre a tela inteira e ficava por cima do video de fundo,
-		       escondendo ele. O video deve aparecer atras de tudo.
-		       ========================================================= */
+		/* =========================================================
+		   ESCONDE O FUNDO ESTÁTICO (camada "bg" / instance_7)
+		   Essa camada é uma imagem opaca (gradiente + preto) que
+		   cobre a tela inteira e ficava por cima do vídeo de fundo,
+		   escondendo ele. O vídeo deve aparecer atrás de tudo.
+		   ========================================================= */
 		
-		    if (root.instance_7) {
-		        root.instance_7.visible = false;
-		    }
+		if (root.instance_7) {
+		    root.instance_7.visible = false;
+		}
 		
 		
 		/* =========================================================
@@ -3447,20 +3447,20 @@ if (reversed == null) { reversed = false; }
 		    bgVideo.style.width = "100vw";
 		    bgVideo.style.height = "100vh";
 		
-		    // ocupa toda a tela sem deformar, em qualquer proporcao de device (celular, tablet, desktop)
+		    // ocupa toda a tela sem deformar, em qualquer proporção de device (celular, tablet, desktop)
 		    bgVideo.style.objectFit = "cover";
 		
-		    // atras do Canvas
+		    // atrás do Canvas
 		    bgVideo.style.zIndex = "-1";
 		
-		    // video nao recebe clique
+		    // vídeo não recebe clique
 		    bgVideo.style.pointerEvents = "none";
 		
 		
 		    /* -----------------------------------------------------
-		       COLOCA O VIDEO NO BODY, FIXO ATRAS DO CANVAS
+		       COLOCA O VIDEO NO BODY, FIXO ATRÁS DO CANVAS
 		       (cobre a tela inteira mesmo quando o canvas fica
-		       letterboxed em proporcoes diferentes de 16:9)
+		       letterboxed em proporções diferentes de 16:9)
 		       ----------------------------------------------------- */
 		
 		    document.body.insertBefore(bgVideo, container);
@@ -3520,13 +3520,6 @@ if (reversed == null) { reversed = false; }
 		
 		.then(function () {
 		
-		    console.log("BG VIDEO rodando.");
-		
-		})
-		
-		.catch(function (error) {
-		
-		    console.log("Autoplay bloqueado:", error);
 		
 		});
 		
@@ -3560,12 +3553,12 @@ if (reversed == null) { reversed = false; }
 		    root.mcConteudo.addChild(telaTerminal);
 		
 		    telaTerminal.gotoAndPlay(0);
-		
+
 		    root.telaAtual = telaTerminal;
-		
+
 		};
-		
-		
+
+
 		/* =========================================================
 		   CRIA PLAYER FULLSCREEN GLOBAL
 		   ========================================================= */
@@ -4035,21 +4028,21 @@ lib.properties = {
 	color: "#CCCCCC",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/CachedBmp_28.png", id:"CachedBmp_28"},
-		{src:"images/supplylog_atlas_1.png", id:"supplylog_atlas_1"},
-		{src:"images/supplylog_atlas_2.png", id:"supplylog_atlas_2"},
-		{src:"images/supplylog_atlas_3.png", id:"supplylog_atlas_3"},
-		{src:"images/supplylog_atlas_4.png", id:"supplylog_atlas_4"},
-		{src:"images/supplylog_atlas_5.png", id:"supplylog_atlas_5"},
-		{src:"images/supplylog_atlas_6.png", id:"supplylog_atlas_6"},
-		{src:"images/supplylog_atlas_7.png", id:"supplylog_atlas_7"},
-		{src:"images/supplylog_atlas_8.png", id:"supplylog_atlas_8"},
-		{src:"images/supplylog_atlas_9.png", id:"supplylog_atlas_9"},
-		{src:"images/supplylog_atlas_10.png", id:"supplylog_atlas_10"},
-		{src:"images/supplylog_atlas_11.png", id:"supplylog_atlas_11"},
-		{src:"images/supplylog_atlas_12.png", id:"supplylog_atlas_12"},
-		{src:"images/supplylog_atlas_13.png", id:"supplylog_atlas_13"},
-		{src:"images/supplylog_atlas_14.png", id:"supplylog_atlas_14"}
+		{src:"images/CachedBmp_28.png?1790005011393", id:"CachedBmp_28"},
+		{src:"images/supplylog_atlas_1.png?1790005011355", id:"supplylog_atlas_1"},
+		{src:"images/supplylog_atlas_2.png?1790005011355", id:"supplylog_atlas_2"},
+		{src:"images/supplylog_atlas_3.png?1790005011355", id:"supplylog_atlas_3"},
+		{src:"images/supplylog_atlas_4.png?1790005011355", id:"supplylog_atlas_4"},
+		{src:"images/supplylog_atlas_5.png?1790005011355", id:"supplylog_atlas_5"},
+		{src:"images/supplylog_atlas_6.png?1790005011355", id:"supplylog_atlas_6"},
+		{src:"images/supplylog_atlas_7.png?1790005011355", id:"supplylog_atlas_7"},
+		{src:"images/supplylog_atlas_8.png?1790005011356", id:"supplylog_atlas_8"},
+		{src:"images/supplylog_atlas_9.png?1790005011363", id:"supplylog_atlas_9"},
+		{src:"images/supplylog_atlas_10.png?1790005011363", id:"supplylog_atlas_10"},
+		{src:"images/supplylog_atlas_11.png?1790005011363", id:"supplylog_atlas_11"},
+		{src:"images/supplylog_atlas_12.png?1790005011363", id:"supplylog_atlas_12"},
+		{src:"images/supplylog_atlas_13.png?1790005011364", id:"supplylog_atlas_13"},
+		{src:"images/supplylog_atlas_14.png?1790005011364", id:"supplylog_atlas_14"}
 	],
 	preloads: []
 };
