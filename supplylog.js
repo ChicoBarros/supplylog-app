@@ -3373,6 +3373,18 @@ if (reversed == null) { reversed = false; }
 		var root = this;
 		
 		
+		    /* =========================================================
+		       ESCONDE O FUNDO ESTATICO (camada "bg" / instance_7)
+		       Essa camada e uma imagem opaca (gradiente + preto) que
+		       cobre a tela inteira e ficava por cima do video de fundo,
+		       escondendo ele. O video deve aparecer atras de tudo.
+		       ========================================================= */
+		
+		    if (root.instance_7) {
+		        root.instance_7.visible = false;
+		    }
+		
+		
 		/* =========================================================
 		   BACKGROUND VIDEO
 		   ========================================================= */
