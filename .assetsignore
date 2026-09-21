@@ -5,4 +5,5 @@
 .wrangler
 .DS_Store
 wrangler.jsonc
+worker.js
 supplylog.fla
